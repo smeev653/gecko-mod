@@ -1,0 +1,29 @@
+free_colonist = {
+	potential = {
+			NOT = {
+				capital_scope = {
+					continent = north_america
+				}
+			}
+			NOT = {
+				capital_scope = {
+					continent = south_america
+				}
+			}
+			dip_tech = 7	
+		}
+
+	trigger = {
+		
+		NOT = {
+			OR = {
+				capital_scope = { region = australia_region }
+				capital_scope = { region = oceanea_region }
+			}
+		}
+		has_institution = new_world_i
+		was_player = yes
+	}
+	
+	colonists = 2
+}
