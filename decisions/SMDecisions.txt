@@ -18,6 +18,7 @@ country_decisions = {
 	sm_hire_explorer = {	
 		potential = {
 				ai = no
+				has_institution = new_world_i
 			}
 			allow = {
 				has_institution = new_world_i
@@ -31,6 +32,7 @@ country_decisions = {
 	sm_hire_conquistador = {	
 		potential = {
 				ai = no
+				has_institution = new_world_i
 			}
 			allow = {
 				has_institution = new_world_i

@@ -58,7 +58,7 @@ NDiplomacy = {
 	INSULT_TRUST = 5,
 	CLAIM_THRONE_TRUST = 25,
 	BROKE_LAND_PROMISE_YEARS = 30,
-	DEFENDER_OF_FAITH_TRUST_LOSS = -20,				-- Amount of trust loss for refusing to defend a nation with the same religion while being defender of the faith
+	DEFENDER_OF_FAITH_TRUST_LOSS = -0,				-- Amount of trust loss for refusing to defend a nation with the same religion while being defender of the faith
 	DEFENDER_OF_FAITH_PENALTY_DAYS = 1800,			-- Duration of the modifier applied to a defender of the faith that refuses to defend a nation with the same religion
 
 	FAVOR_GAIN_WARSCORE_FACTOR = 20,				-- Favors gained for giving land is scaled relative to this actual warscore cost (so more favors for bigger chunks of land)
@@ -291,7 +291,7 @@ NDiplomacy = {
 	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
 	ALLY_AE_MULT = 1.5,								-- Taking things from allies that are not fully called into the war generates this much more AE
 
-	ANNEX_DIP_COST_PER_DEVELOPMENT = 8,			-- per development
+	ANNEX_DIP_COST_PER_DEVELOPMENT = 6,			-- per development
 
 	DEFENDER_AE_MULT = 0.75, 					-- _DDEF_DEFENDER_AE_MULT_ (Infamy multiplied by this for defenders in peace treaties, unless the CB is "mutual" )
 	PO_REVOKE_REFORM_PRESTIGE = 10, 				-- _DDEF_PO_REVOKE_REFORM_PRESTIGE_
@@ -603,7 +603,7 @@ NCountry = {
 	MINIMUM_ADVISOR_DURATION = 10, 					-- _CDEF_MINIMUM_ADVISOR_DURATION_
 	MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 15,		-- Higher value here gives lower daily death chance after MINIMUM_ADVISOR_DURATION
 	ADVISOR_CUT_OFF_AGE = 30, 						-- _CDEF_ADVISOR_CUT_OFF_AGE = 10,
-	MAXIMUM_ADVISOR_SKILL = 7,						-- Maximum advisor skill reachable through promotion
+	MAXIMUM_ADVISOR_SKILL = 5,						-- Maximum advisor skill reachable through promotion
 	PROMOTE_COST_MONTHS_ADVISOR_SALARY = 60.0,		-- Promote advisor cost in monthly salaries
 	CULTURE_LOSS_THRESHOLD = 0.10, 					-- _CDEF_CULTURE_LOSS_THRESHOLD = 10,
 	CULTURE_GAIN_THRESHOLD = 0.20, 					-- _CDEF_CULTURE_GAIN_THRESHOLD = 10,
@@ -956,7 +956,7 @@ NEconomy = {
 	GOLD_MINE_SIZE_PRIMITIVES = 4,					-- Gold income for very slow techgroups
 	TRADE_POWER_HOME_BONUS = 0.1,
 	TRADE_POWER_HOME_BONUS_MAX = 1,
-	AUTONOMY_AT_DIPLO_ANNEX = 60,					-- Autonomy added when diplo-annexing
+	AUTONOMY_AT_DIPLO_ANNEX = 30,					-- Autonomy added when diplo-annexing
 	AUTONOMY_AT_CONQUEST = 50,						-- Autonomy added at conquest
 	AUTONOMY_AT_CONQUEST_CLAIM = 40,				-- Autonomy added at conquest if you have a claim
 	AUTONOMY_AT_CONQUEST_CORE = 0,					-- Autonomy added at conquest if you have a core
