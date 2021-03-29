@@ -550,24 +550,17 @@ emp_burgundy_3 = {
 		trigger = {
 					NOT = {
 					any_subject_country = {
-						liberty_desire = 30
+						liberty_desire = 35
 						}
 					}	
 		}
-			
-		
-		
 		effect = {
-			lorraine_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+					name = "burgundy_subjects_placated"
+					duration = 5475 #15 years	
 			}
 		}
 	}
-	
 	emp_bur_lorraine = {
 		icon = mission_conquer_50_development
 		required_missions = { emp_bur_subjects }

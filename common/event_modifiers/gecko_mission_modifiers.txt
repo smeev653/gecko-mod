@@ -1,4 +1,4 @@
-succesful_bid_for_imperial_crown = {
+hungary_unleashed = {
 	ae_impact = -0.2
 	province_warscore_cost = -0.1
 }
@@ -12,3 +12,7 @@ rule_britannia = {
 	global_ship_cost = -0.25
 	heavy_ship_power = 0.1
 }
+
+burgundy_subjects_placated = {
+	diplomatic_reputation = 2
+}	
