@@ -71,7 +71,6 @@ estate_nomadic_tribes = {
 		estate_nobles_advisors
 		estate_nobles_nobility_primacy
 		estate_nomadic_tribes_share_of_the_spoils
-		estate_nomadic_tribes_guaranteed_leadership_in_host
 		estate_nomadic_tribes_tribal_host
 		estate_nomadic_tribes_primacy_to_the_bannermen
 		estate_nomadic_tribes_tribute #smeev change

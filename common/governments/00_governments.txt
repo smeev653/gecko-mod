@@ -39,6 +39,7 @@ monarchy = {
 				h_reform_sinicized_horde
 				persian_theocracy #dum
 				mughal_government #smeev
+				silk_road_empire #smeev
 			}
 		}
 		hereditary_vs_nobility = {

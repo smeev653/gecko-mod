@@ -133,6 +133,9 @@ fort_15th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			province_id = 4182
+			province_id = 235
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -304,6 +307,9 @@ fort_15th = {
 				NOT = { had_province_flag = { flag = PR_new_conquest_fort_delay days = 182 } }
 			}
 			is_capital = yes
+			province_id = 4182
+			province_id = 235
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -504,7 +510,7 @@ fort_15th = {
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
 		FROM = {
-			add_army_professionalism = -0.01
+			#add_army_professionalism = -0.01
 		}
 	}
 
@@ -512,7 +518,7 @@ fort_15th = {
 	on_obsolete = {
 		hidden_effect = {
 			FROM = {
-				add_army_professionalism = -0.005
+				#add_army_professionalism = -0.005
 			}
 		}
 	}
@@ -595,7 +601,7 @@ regimental_camp = {
 #	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 #	on_destroyed = {
 #		FROM = {
-#			add_army_professionalism = -0.01
+#			#add_army_professionalism = -0.01
 #		}
 #	}
 #
@@ -603,7 +609,7 @@ regimental_camp = {
 #	on_obsolete = {
 #		hidden_effect = {
 #			FROM = {
-#				add_army_professionalism = -0.005
+#				#add_army_professionalism = -0.005
 #			}
 #		}
 #	}
@@ -628,6 +634,9 @@ fort_16th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			province_id = 235
+			province_id = 4182
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -799,6 +808,9 @@ fort_16th = {
 				NOT = { had_province_flag = { flag = PR_new_conquest_fort_delay days = 182 } }
 			}
 			is_capital = yes
+			province_id = 235
+			province_id = 4182
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -999,7 +1011,7 @@ fort_16th = {
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
 		FROM = {
-			add_army_professionalism = -0.02
+			#add_army_professionalism = -0.02
 		}
 	}
 
@@ -1007,7 +1019,7 @@ fort_16th = {
 	on_obsolete = {
 		hidden_effect = {
 		FROM = {
-				add_army_professionalism = -0.01
+				#add_army_professionalism = -0.01
 			}
 		}
 	}
@@ -1160,7 +1172,7 @@ training_fields = {
 #	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 #	on_destroyed = {
 #		FROM = {
-#			add_army_professionalism = -0.02
+#			#add_army_professionalism = -0.02
 #		}
 #	}
 #
@@ -1168,7 +1180,7 @@ training_fields = {
 #	on_obsolete = {
 #		hidden_effect = {
 #			FROM = {
-#				add_army_professionalism = -0.01
+#				#add_army_professionalism = -0.01
 #			}
 #		}
 #	}
@@ -1191,6 +1203,9 @@ fort_17th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			province_id = 235
+			province_id = 4182
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -1362,6 +1377,9 @@ fort_17th = {
 				NOT = { had_province_flag = { flag = PR_new_conquest_fort_delay days = 182 } }
 			}
 			is_capital = yes
+			province_id = 235
+			province_id = 4182
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -1563,7 +1581,7 @@ fort_17th = {
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
 		FROM = {
-			add_army_professionalism = -0.04
+			#add_army_professionalism = -0.04
 		}
 	}
 
@@ -1571,7 +1589,7 @@ fort_17th = {
 	on_obsolete = {
 		hidden_effect = {
 			FROM = {
-				add_army_professionalism = -0.02
+				#add_army_professionalism = -0.02
 			}
 		}
 	}
@@ -1718,6 +1736,9 @@ fort_18th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			province_id = 235
+			province_id = 4182
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -1889,6 +1910,9 @@ fort_18th = {
 				NOT = { had_province_flag = { flag = PR_new_conquest_fort_delay days = 182 } }
 			}
 			is_capital = yes
+			province_id = 235
+			province_id = 4182
+			province_id = 4227
 			province_id = 14
 			province_id = 127
 			province_id = 1247
@@ -2090,7 +2114,7 @@ fort_18th = {
 	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
 	on_destroyed = {
 		FROM = {
-			add_army_professionalism = -0.08
+			#add_army_professionalism = -0.08
 		}
 	}
 
@@ -2098,7 +2122,7 @@ fort_18th = {
 	on_obsolete = {
 		hidden_effect = {
 			FROM = {
-				add_army_professionalism = -0.04
+				#add_army_professionalism = -0.04
 			}
 		}
 	}

@@ -7,6 +7,8 @@ add_accepted_culture = lithuanian
 religion = orthodox
 technology_group = eastern
 historical_friend = POL
+historical_rival = NOV
+histoircal_rival = MOS
 capital = 272 # Vilnius
 
 1392.1.1 = {

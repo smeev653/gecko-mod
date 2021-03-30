@@ -52,36 +52,6 @@ estate_nomadic_tribes_share_of_the_spoils = {
 	}
 }
 
-estate_nomadic_tribes_guaranteed_leadership_in_host = {
-	icon = privilege_conscript_cossack_elite
-	influence = 0.1
-	loyalty = 0.2
-	is_valid = {
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	on_granted = {
-		random_owned_province = {
-			add_unit_construction = {
-				type = cavalry
-				amount = 5
-				speed = 0.5
-				cost = 0
-			}
-		}
-		create_general = { tradition = 20 }
-	}
-	cooldown_years = 5
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0.5
-			is_absolutism_active = yes
-		}
-	}
-}
 estate_nomadic_tribes_tribal_host = {
 	icon = privilege_raise_host
 	max_absolutism = -10

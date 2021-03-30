@@ -221,7 +221,7 @@ MOS_ideas = {
 	free = yes		#will be added at load.
 
 	gatherers_of_tribute = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.2
 	}
 	legacy_of_dmitriy_donskoi = {
 		army_tradition = 0.5
@@ -934,43 +934,40 @@ VRN_ideas = {
 
 VEN_ideas = {
 	start = {
-		global_sailors_modifier = 0.20
-		global_trade_power = 0.1
+		trade_efficiency = 0.15
+		land_morale = 0.1
 	}
 	
 	bonus = {
-		galley_power = 0.25
+		naval_morale = 0.15
 	}
-	
 	trigger = {
 		tag = VEN
 	}
 	free = yes		#will be added at load.
 	
-	venetian_arsenal = {
+	DAL_kingdom_of_dalmatia = {
+		reform_progress_growth = 0.15
+		global_unrest = -1
+	}
+	DAL_principalities = {
+		global_foreign_trade_power = 0.15
+	}
+	DAL_language = {
+		num_accepted_cultures = 2
+	}
+	DAL_art_and_lit = {
+		global_institution_spread = 0.1
+		development_cost = -0.05
+	}
+	DAL_independent_army = {
+		infantry_power = 0.15
+	}
+	DAL_arsenal = {
 		naval_forcelimit_modifier = 0.25
-		galley_cost = -0.20
 	}
-	printing_industry = {
-		diplomats = 1
-	}
-	stato_da_mar = {
-		trade_efficiency = 0.10
-	}
-	state_inquisition = {
-		global_spy_defence = 0.3
-	}
-	conscription = {
-		naval_maintenance_modifier = -0.2
-		sailor_maintenance_modifer = -0.05
-	}
-	defend_the_law = {
-		stability_cost_modifier = -0.1
-		justify_trade_conflict_cost = -0.1
-	}
-	provveditori_ai_beni_inculti = {
-		land_attrition = -0.10
-		naval_attrition = -0.10
+	DAL_illyria = {
+		core_creation = -0.15
 	}
 }
 
@@ -1007,7 +1004,7 @@ PRU_ideas = {
 		infantry_power = 0.20
 	}
 	regimental_cantons = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.15
 		global_regiment_recruit_speed = -0.10
 	}
 	religious_toleration = {
@@ -1120,13 +1117,13 @@ POL_ideas = {
 	folwark_system = {
 		production_efficiency = 0.1
 	}
-	nihil_novi = {
-		stability_cost_modifier = -0.1
-		war_exhaustion = -0.02
-	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.25
 		infantry_power = 0.1
+	}
+	nihil_novi = {
+		stability_cost_modifier = -0.1
+		war_exhaustion = -0.02
 	}
 	winged_hussars = {
 		cavalry_power = 0.33

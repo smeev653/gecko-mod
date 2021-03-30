@@ -30,7 +30,6 @@ restore_merv_ = {
 			add_stability = 1
 			add_core = 445
 			445 = {
-				move_capital_effect = yes
 				change_culture = uzbehk
 				change_religion = ROOT
 				rename_capital = Merv
@@ -39,7 +38,7 @@ restore_merv_ = {
 				add_base_manpower = 4
 				}
 			set_global_flag = restored_merv
-			set_government_rank = 3
+
 		}
 		ai_will_do = {
 			factor = 1

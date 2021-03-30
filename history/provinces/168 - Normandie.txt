@@ -1,7 +1,7 @@
 # 168 Normandie - Principal cities: Caen
 
-owner = FRA
-controller = FRA 
+owner = NRM
+controller = NRM
 capital = "Caen"
 is_city = yes
 culture = normand

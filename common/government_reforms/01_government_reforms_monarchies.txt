@@ -485,6 +485,7 @@ ottoman_government = {
 }
 
 prussian_monarchy = {
+	lock_level_when_selected = yes
 	icon = "prussian_monarchy"
 	allow_normal_conversion = yes
 	potential = {
@@ -519,7 +520,7 @@ prussian_monarchy = {
 		global_unrest = -2
 		global_autonomy = -0.075
 		max_absolutism = 10
-		monarch_military_power = 2
+		monarch_military_power = 1
 		nobles_loyalty_modifier = 0.1
 		governing_capacity_modifier = -0.33
 	}

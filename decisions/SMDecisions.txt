@@ -6,11 +6,11 @@ country_decisions = {
 				NOT = { has_country_flag = sm_hire_general }
 			}
 			allow = {
-				NOT = { army_tradition = 50 }
+				NOT = { army_tradition = 40 }
 			}
 			effect = {
 				add_years_of_income = -0.3
-				create_general = { tradition = 50 }
+				create_general = { tradition = 40 }
 				set_country_flag = sm_hire_general
 			}
 		}

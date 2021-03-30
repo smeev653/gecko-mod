@@ -1,0 +1,25 @@
+#bukhara gov reform
+
+silk_road_empire = { #tier 1
+	icon = "asian_scripture"
+	lock_level_when_selected = yes
+	potential = {
+			tag = BUK
+		}
+	modifiers = {
+		merchants = 2
+		missionaries = 1
+		trade_steering = 0.33
+		global_trade_power = 0.1
+		governing_capacity = 100
+	}
+	government_abilities = {
+		feudal_theocracy_mechanic
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+	}
+	ai = {
+		factor = 0.75 #generic
+	}
+}

@@ -26,7 +26,6 @@ country_decisions = {
 			OR = {
 				tag = ARL
 				tag = AFG
-				tag = BUK
 			}
 			is_colonial_nation = no
 			OR = {

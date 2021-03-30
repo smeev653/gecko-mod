@@ -16,8 +16,8 @@ country_event = {
 		NOT = { is_year = 1600 }
 		any_owned_province = {
 			OR = {
-				region = khorasan_region
-				region = central_asia_region
+				area = khiva_area
+				area = termez_area
 				}
 			trade_goods = wool
 		}
@@ -34,8 +34,8 @@ country_event = {
 		every_owned_province = {
 			limit = {
 				OR = {
-					region = khorasan_region
-					region = central_asia_region
+					area = khiva_area
+					area = termez_area
 				}
 				trade_goods = wool
 			}
