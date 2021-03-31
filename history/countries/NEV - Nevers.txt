@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = burgundian
-capital = 181	# Rethelois
+capital = 191	# Nevers
 
 #Counts
 1384.1.1 = {
