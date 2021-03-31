@@ -297,7 +297,31 @@ bukhara_missions_slot_2 = {
 					715 = {
 						development = 20
 						}
-					}	
+					}
+				owns_core_province = 442
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					442 = {
+						OR = { 
+							province_has_center_of_trade_of_level = 3
+							development = 20
+						}
+					}
+				}
+				owns_core_province = 454
+				if = {
+					limit = {
+						has_dlc = "Dharma"
+					}
+					454 = {
+						OR = { 
+							province_has_center_of_trade_of_level = 3
+							development = 20
+						}
+					}
+				}	
 			}		
 		}
 		effect = {
