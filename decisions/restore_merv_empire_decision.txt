@@ -1,6 +1,6 @@
 country_decisions = {
 
-restore_merv_ = {
+restore_merv = {
 		potential = {
 			OR = {
 				tag = BUK
@@ -37,6 +37,29 @@ restore_merv_ = {
 				add_base_production = 5
 				add_base_manpower = 4
 				}
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+					445 = {
+						NOT = {
+							province_has_center_of_trade_of_level = 3
+						}
+					}
+				}
+				445 = {
+					add_center_of_trade_level = 1
+				}
+			}
+			else = {
+				445 = {
+					add_trade_modifier = {
+						who = root
+						duration = 7300
+						power = 50
+						key = crimean_trade
+					}
+				}
+			}	
 			set_global_flag = restored_merv
 
 		}

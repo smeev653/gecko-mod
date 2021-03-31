@@ -98,6 +98,9 @@ country_event = {
 			change_culture = crimean
 			change_religion = sunni
 		}
+		285 = {
+					add_center_of_trade_level = 1
+		}
 		add_treasury = 500
 		add_manpower = 20
 	}

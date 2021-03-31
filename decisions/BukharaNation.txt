@@ -69,6 +69,7 @@ country_decisions = {
 			}
 		}
 		effect = {
+			set_government_rank = 3
 			set_country_flag = bukharan_nation
 			442 = {
 				move_capital_effect = yes
