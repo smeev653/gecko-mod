@@ -5,6 +5,10 @@ country_decisions = {
 	PR_sokoto_nation = {
 		major = yes
 		potential = {
+			NOT = { tag = SPA }
+			NOT = { tag = POR }
+			NOT = { tag = CAS }
+			NOT = { tag = ADU }
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = PR_formed_sokoto_flag }
