@@ -704,7 +704,6 @@ age_of_revolutions = {
 		ab_allow_anti_revolutionary_zeal = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.50
-				max_absolutism = 150
 			}
 			ai_will_do = {
 				factor = 15

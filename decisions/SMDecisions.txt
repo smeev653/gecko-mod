@@ -41,5 +41,20 @@ country_decisions = {
 				add_years_of_income = -0.3
 				create_conquistador = { tradition = 10 }
 			}	
-		}				
-}		
+		}
+	gecko_absolutism = {
+		potential = {
+				has_institution = manufactories
+				NOT = { has_country_flag = gecko_absolutism }
+			}
+			allow = { 
+				absolutism = 50
+			}
+			effect = {
+				add_country_modifier = {
+				name = "gecko_absolutism"
+				duration = -1
+				}
+				set_country_flag = gecko_absolutism
+			}
+		}		
