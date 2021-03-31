@@ -14,7 +14,7 @@ rule_britannia = {
 }
 
 burgundy_subjects_placated = {
-	diplomatic_reputation = 2
+	reduced_liberty_desire = 50
 }
 
 succesful_bid_for_imperial_crown = {
