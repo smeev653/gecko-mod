@@ -37,6 +37,9 @@ restore_merv = {
 				add_base_production = 5
 				add_base_manpower = 4
 				}
+			445 = {
+				change_trade_goods = silk
+				}
 			if = {
 				limit = {
 					has_dlc = "Dharma"

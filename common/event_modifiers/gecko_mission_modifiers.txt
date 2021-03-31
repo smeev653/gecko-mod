@@ -20,4 +20,8 @@ burgundy_subjects_placated = {
 succesful_bid_for_imperial_crown = {
 	ae_impact = -0.2
 	province_warscore_cost = -0.1
-}	
+}
+
+silk_road_restored = {
+	trade_goods_size_modifier = 0.25
+}

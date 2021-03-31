@@ -208,7 +208,7 @@ age_of_discovery = {
 				tag = DAN
 			}
 			modifier = {
-				reduced_liberty_desire = 30
+				galley_power = 0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -399,7 +399,10 @@ age_of_reformation = {
 		}
 		ab_mughal_artillery = {
 			allow = {
-				tag = MUG
+				OR = {
+					tag = MUG
+					tag = BUK
+				}	
 			}
 			modifier = {
 				artillery_cost = -0.5

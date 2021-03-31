@@ -441,6 +441,7 @@ tim_reconquest_transoxiana = {
 			tag = AFG
 			tag = QOM
 			tag = KHO
+			tag = BUK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
