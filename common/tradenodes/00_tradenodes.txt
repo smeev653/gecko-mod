@@ -1499,7 +1499,7 @@ alexandria={
 		359 2317 4318 #vostani_area
 		360 1231 2319 4319 4320 #said_area
 		356 357 2325 2326 #cyrenaica_area
-		1795 4321 4322 #Wastelands
+		4321 4322 #Wastelands
 		2324 1232 1230 2787 #red sea coast
 		364 #ghazzah
 	}
