@@ -198,11 +198,6 @@
  PR_qar_missions5_desc_desc:0 "TBD"
  PR_qar_missions6_desc_title:0 "Consolidate Yemen"
  PR_qar_missions6_desc_desc:0 "TBD"
- #trade
- georgia:0 "Caucasus"
- novgorod:0 "Moscow"
- white_sea:0 "Novgorod"
- trade_company_caucasus:0 "Caucasian Charter"
  #diplomatic setup
  sm_tooltip_mamottoally:0 "We cannot ally the House of Osman."
  sm_tooltip_ottomamally:0 "We cannot ally the Mamluk Sultanate."

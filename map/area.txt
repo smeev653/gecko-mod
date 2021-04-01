@@ -1100,8 +1100,8 @@ serbia_area = { #5
 	141 3000 4176 4239 4757
 }
 
-rascia_area = { #4
-	138 1766 1827 4754
+rascia_area = { #3
+	138 1766 1827
 }
 
 albania_area = { #4
@@ -1114,15 +1114,15 @@ bosnia_area = { #5
 
 croatia_area = { #4
 	color = { 18 126 16 }
-	131 1826 1828 4752
+	131 1826 4752
 }
 
 slavonia_area = { #4
-	152 4756 1767 4173
+	152 4756 1767 4173 1828 
 }
 
-east_adriatic_coast_area = { #3
-	136 137 4753
+east_adriatic_coast_area = { #4
+	136 137 4753 4754
 }
 
 alfold_area = { #4
@@ -1217,7 +1217,7 @@ cukurova_area = { #3
 }
 
 aleppo_area = { #4
-	377 1849 2313 4298
+	377 1849 2313 4298 2308
 }
 
 syria_area = { #4
@@ -1225,16 +1225,16 @@ syria_area = { #4
 }
 
 trans_jordan_area = { #3
-	380 381 2327
+	
 }
 
 palestine_area = { #3
-	364 379 1854
+	379 1854 380 381 
 }
 
 dulkadir_area = { # 4
 	color = { 184 54 72 }
-	332 2303 2308 4310
+	332 2303 4310
 }
 
 iraq_arabi_area = { #5 Lower Mesopotamia
@@ -1265,7 +1265,7 @@ shahrizor_area = {	#4
 
 al_jazira_area = { #5
 	color = { 92 200 92 }
-	407 411 2309 2314 4292
+	 411 2309 2314 
 }
 
 
@@ -1286,7 +1286,7 @@ nafud_area = { #3
 }
 
 tabuk_area = { #4
-	383 2328 4268 4269
+	383 2328 4268 4269 2327
 }
 
 medina_area = { #3
@@ -1345,7 +1345,7 @@ mascat_area = { #3 (Batinah and Muscat coast
 
 syrian_desert_area = { #3
 	color = { 219 30 57 }
-	405 4270 4271
+	405 4270 4271 407 4292
 }
 
 ########################################
@@ -1354,7 +1354,7 @@ syrian_desert_area = { #3
 
 gulf_of_arabia_area = { #5
 	color = { 19 219 75 }
-	365 2315 2320 2321
+	365 2315 2320 2321 364
 }
 
 al_wahat_area = { #3
