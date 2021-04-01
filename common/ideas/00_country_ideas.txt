@@ -956,13 +956,14 @@ VEN_ideas = {
 	DAL_language = {
 		num_accepted_cultures = 2
 	}
+	DAL_independent_army = {
+		infantry_power = 0.15
+	}
 	DAL_art_and_lit = {
 		global_institution_spread = 0.1
 		development_cost = -0.05
 	}
-	DAL_independent_army = {
-		infantry_power = 0.15
-	}
+	
 	DAL_arsenal = {
 		naval_forcelimit_modifier = 0.25
 	}
