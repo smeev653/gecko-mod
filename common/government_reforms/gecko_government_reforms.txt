@@ -27,3 +27,67 @@ silk_road_empire = { #tier 1
 		factor = 0.75 #generic
 	}
 }
+
+mughal_government = {
+	icon = "peacock_throne"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Dharma"
+		AND = {
+			tag = MUG
+			NOT = { map_setup = map_setup_random }
+		}
+	}
+	lock_level_when_selected = yes
+	legacy_equivalent = feudal_monarchy
+
+	modifiers = {
+		global_manpower_modifier = 0.20
+		monarch_admin_power = 2
+		global_autonomy = -0.05
+		infantry_power = 0.10
+		tolerance_heathen = 3
+		vassal_income = 0.33
+	}
+	
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+}
+
+mansabdari_reform = {
+	icon = "noble_muslim"
+	allow_normal_conversion = yes
+	potential = {
+		tag = MUG
+		NOT = { map_setup = map_setup_random }
+		has_dlc = "Dharma"
+	}
+	modifiers = {
+		army_tradition_decay = -0.005
+		governing_capacity = 200
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+zabt_reform = {
+	icon = "general_eastern_administrative"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Dharma"
+		tag = MUG
+	}
+	modifiers = {
+		administrative_efficiency = 0.05
+		global_autonomy = -0.05
+		governing_capacity = 200
+	}
+	ai = {
+		factor = 5
+	}
+}
