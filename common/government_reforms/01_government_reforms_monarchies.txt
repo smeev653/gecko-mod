@@ -1107,7 +1107,7 @@ quash_noble_power_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 		nobles_influence_modifier = -0.1
 		maratha_exclusive_influence_modifier = -0.1
 		rajput_exclusive_influence_modifier = -0.1
