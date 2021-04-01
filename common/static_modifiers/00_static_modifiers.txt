@@ -222,7 +222,6 @@ blockaded = {
 }
 
 no_adjacent_controlled = {
-	local_colonial_growth = -5
 }
 
 provincial_tax_income = {
@@ -749,7 +748,7 @@ navy_tradition = {
 	recover_navy_morale_speed = 0.1
 	naval_morale = 0.25
 	trade_steering = 1.0
-	privateer_efficiency = 0.25
+	privateer_efficiency = 0
 	enuchs_influence = 0.1
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
