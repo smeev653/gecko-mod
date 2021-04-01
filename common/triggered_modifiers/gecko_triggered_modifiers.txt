@@ -24,6 +24,15 @@ free_colonist = {
 		has_institution = new_world_i
 		was_player = yes
 	}
-	
 	colonists = 2
 }
+
+low_army_tradition = {
+	potential = {
+		NOT = { army_tradition = 40 }
+		}
+	trigger = {	
+		NOT = { army_tradition = 20 }
+		}
+	yearly_army_professionalism = -0.02	
+	}

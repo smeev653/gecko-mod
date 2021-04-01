@@ -1,5 +1,3 @@
-#ruler failsafes
-
 namespace = gecko_events
 
 country_event = { #Poland Ruler Failsafe
