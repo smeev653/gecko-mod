@@ -157,7 +157,7 @@ emp_hab_empire_branch = {
 				hre_reform_passed = emperor_privilegia_de_non_appelando
 				AND = {
 					custom_trigger_tooltip = {
-						tooltip = emp_hab_no_one_to_threaten_us_trigger_tooltip
+						tooltip = gecko_emp_hab_no_one_to_threaten_us_trigger_tooltip
 						NOT = {
 							any_country = {
 								NOT = { tag = root }
