@@ -12,19 +12,20 @@ aristocracy_ideas = {
 
 	bonus = {
 		leader_siege = 1
-		nobles_loyalty_modifier = 0.1
+		nobles_loyalty_modifier = 0.2
 	}
 	
 	noble_knights = {
-		cavalry_power = 0.10
-		cavalry_cost = -0.10
+		cavalry_power = 0.15
+		cavalry_cost = -0.15
 	}
 	military_traditions = {
 		mil_tech_cost_modifier  = -0.1
+		army_tradition_from_battle = 1
 	}
 	local_nobility = {
-		global_autonomy = -0.025
-		yearly_absolutism = 0.5
+		global_autonomy = -0.05
+		yearly_absolutism = 6
 	}
 	serfdom = {
 		global_manpower_modifier = 0.33
@@ -38,7 +39,7 @@ aristocracy_ideas = {
 		free_leader_pool = 1
 	}
 	noble_resilience = {
-		mercenary_manpower = 0.20
+		general_cost = -0.20
 	}
 	
 
@@ -63,7 +64,7 @@ plutocracy_ideas = {
 	}
 
 	tradition_of_payment = {
-		mercenary_manpower = 0.10
+		mercenary_cost = -0.2
 		mercenary_discipline = 0.025
 	}
 	abolished_serfdom = {
@@ -79,7 +80,7 @@ plutocracy_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	free_cities = {
-		caravan_power = 0.25
+		caravan_power = 0.5
 	}
 	emancipation = {
 		manpower_recovery_speed = 0.2
@@ -291,6 +292,7 @@ offensive_ideas = {
 	}
 	engineer_corps = {
 		siege_ability = 0.20
+		artillery_bonus_vs_fort = 1
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.2
@@ -309,7 +311,7 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		hostile_attrition = 1
+		garrison_size = 0.25
 	}
 
 	battlefield_commisions = {
@@ -325,8 +327,8 @@ defensive_ideas = {
 		land_maintenance_modifier = -0.05
 	}
 	defensive_mentality = {
-		defensiveness = 0.2
-		fort_maintenance_modifier = -0.1
+		defensiveness = 0.33
+		fort_maintenance_modifier = -0.2
 	}
 	supply_trains = {
 		reinforce_speed = 0.33
@@ -404,7 +406,7 @@ economic_ideas = {
 		inflation_reduction = 0.1
 	}
 	debt_and_loans = {
-		interest = -0.5
+		build_time = -0.1
 	}
 	centralization = {
 		global_autonomy = -0.05
@@ -754,7 +756,7 @@ quantity_ideas = {
 		global_supply_limit_modifier = 0.33
 	}
 	garrison_conscription = {
-		garrison_size = 0.25
+		free_leader_pool = 1
 	}
 	expanded_supply_trains = {
 		land_attrition = -0.1
@@ -771,7 +773,7 @@ expansion_ideas = {
 	important = yes
 
 	bonus = {
- 		min_autonomy_in_territories = -0.1
+ 		administrative_efficiency = 0.05
 	}
 
 	adaptability = {
@@ -779,22 +781,23 @@ expansion_ideas = {
 	}
 	additional_merchants = {
 		merchants = 1
+		placed_merchant_power = 5
 	}
-	bill_of_rights = {
+	exp_bill_of_rights = {
 		global_unrest = -2
 	}
 	factories = {
-		rival_border_fort_maintenance = -0.5
+		rival_border_fort_maintenance = -0.75
 		center_of_trade_upgrade_cost = -0.2
 	}
 	additional_diplomats = {
-		diplomatic_upkeep = 1
+		cb_on_overseas = yes
 	}
-	free_subjects = {
+	exp_free_subjects = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	competetive_merchants  = {
-		global_trade_power = 0.2
+		global_trade_power = 0.25
 	}
 
 	ai_will_do = {

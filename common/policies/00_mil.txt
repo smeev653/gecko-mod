@@ -811,8 +811,9 @@ guerilla_warfare = {
 	}
 }
 
+#smeev change
 weapon_quality_standards = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = economic_ideas
@@ -823,7 +824,7 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	discipline = 0.05
+	build_cost = -0.15
 	
 	ai_will_do = {
 		factor = 2

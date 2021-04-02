@@ -1172,8 +1172,7 @@ HAB_ideas = {
 		fort_maintenance_modifier = -0.10
 	}
 	fugger_banks = {
-		inflation_reduction = 0.05
-		interest = -0.5
+		inflation_reduction = 0.1
 	}
 	habsburg_dominance = {
 		diplomatic_reputation = 2
@@ -1247,7 +1246,7 @@ PER_ideas = {
 	free = yes
 
 	the_qizilbash = {
-		global_manpower_modifier = 0.15
+		manpower_in_true_faith_provinces = 0.2
 		monthly_piety = -0.001
 	}
 	persian_rug_production = {
@@ -1407,8 +1406,8 @@ HUN_ideas = {
 	}
 	free = yes
 	
-	hun_renaissanse_knowledge = {
-		global_unrest = -1
+	reformed_coinage = {
+		global_tax_modifier = 0.2
 	}
 	bulwark_of_christianity = {
 		global_manpower_modifier = 0.2
@@ -1416,8 +1415,8 @@ HUN_ideas = {
 	found_the_black_army = {
 		discipline = 0.05
 	}
-	reformed_coinage = {
-		global_tax_modifier = 0.2
+	hun_renaissanse_knowledge = {
+		technology_cost = -0.1
 	}
 	curtailed_peasantry = {
 		production_efficiency = 0.1
@@ -3162,7 +3161,7 @@ TUS_ideas = {
 		merc_maintenance_modifier = -0.15
 	}
 	tuscan_banking = {
-		interest = -0.5
+		interest = -0.25
 	}
 	tuscan_arts = {
 		prestige = 1
@@ -14955,9 +14954,9 @@ SWA_ideas = {
 	swa_decentralisation = {
 		global_tax_modifier = 0.15
 	}
-	fugger_banks = { #from HAB_ideas
+	swa_fugger_banks = {
 		inflation_reduction = 0.05
-		interest = -0.5
+		interest = -0.25
 	}
 	swa_free_cities = {
 		global_prov_trade_power_modifier = 0.25
