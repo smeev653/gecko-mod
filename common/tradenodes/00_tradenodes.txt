@@ -1870,7 +1870,7 @@ constantinople={
 		322 1848 4308 4311 #germiyan_area
 		318 319 2297 2298 4309 #aydin_area
 		326 4312 4313 #ankara_area
-		4700 4703   # 1.30
+		4703   # 1.30
 		321 327 2302 #cukurova_area #smeev
 		323 324 2301 4307 #karaman_area #smeev
 		332 2303 4310 #dulkadir_area #smeev
@@ -1968,7 +1968,8 @@ ragusa={
 		4703 1765 2746 150 2750 #bulgaria # smeev
 		159 4706 4704 #silistria #smeev
 		1764 151 4779 4705 149 #thrace #smeev
-		164 320 1319 2348 3003 #aegean_archipelago_area
+		4700 164 320 2348 3003 #aegean_archipelago_area
+		1319 #aegean sea #smeev
 	}
 }
 

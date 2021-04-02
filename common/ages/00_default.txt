@@ -228,7 +228,8 @@ age_of_discovery = {
 				tag = VEN
 			}
 			modifier = {
-				global_ship_trade_power = 0.5
+				mercenary_discipline = 0.05
+				mercenary_manpower = 0.25
 			}
 			ai_will_do = {
 				factor = 100
