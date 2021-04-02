@@ -5,3 +5,13 @@
 enlist_rajputs = {	
 	special_unit_forcelimit = 0.2
 	}
+	
+national_bank_interest = {
+	build_time = -0.25
+	build_cost = -0.1
+	}	
+	
+national_bank_inflation = {
+	inflation_reduction = 0.2
+	build_cost = -0.1
+	}		
