@@ -2,6 +2,7 @@ government = republic
 add_government_reform = united_cantons_reform
 government_rank = 1
 mercantilism = 25
+elector = yes
 technology_group = western
 primary_culture = swabian
 religion = catholic
