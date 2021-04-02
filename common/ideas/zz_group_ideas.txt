@@ -1513,9 +1513,9 @@ ruthenian_ideas = {
 	reuniting_rus = {
 		land_morale = 0.10
 	}
-	mother_of_russian_cities = { #Mother of Russian States
-		legitimacy = 0.5
-		prestige = 0.5
+	siberian_frontier = {
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
 	}
 }
 
