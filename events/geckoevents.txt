@@ -1,4 +1,4 @@
-namespace = gecko_events
+namespace = gecko
 
 country_event = { #Poland Ruler Failsafe
 	id = gecko.1

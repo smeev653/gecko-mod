@@ -83,7 +83,7 @@ tatar_missions_1 = {
 			owns_core_province = 465
 		}
 		effect = {
-			country_event = { id = sm_crimea_mission_events.1 }
+			country_event = { id = gecko_crimea_mission.1 }
 			caucasia_region = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -645,7 +645,7 @@ tatar_missions_2 = {
 			}
 		}
 		effect = {
-			country_event = { id = sm_crimea_mission_events.2 }
+			country_event = { id = gecko_crimea_mission.2 }
 			zaporizhia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
