@@ -6374,7 +6374,7 @@ estate_cossacks_recruit_cossack_generals = {
 	}
 	benefits = {
 		army_tradition = 0.5
-		leader_land_shock = 1
+		shock_damage = 0.1
 	}
 	ai_will_do = {
 		factor = 10
