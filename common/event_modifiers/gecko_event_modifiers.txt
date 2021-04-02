@@ -23,4 +23,9 @@ estate_cossacks_exploration_expedition_mod = {
 estate_cossacks_prime_herding_rights_mod = {
 	local_tax_modifier = -0.2
 	local_manpower_modifier = 0.25
+}
+
+domain_of_spouses_family = {
+	local_missionary_strength = -0.05
+	local_unrest = -3
 }	
