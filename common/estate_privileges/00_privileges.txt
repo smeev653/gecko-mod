@@ -1967,7 +1967,7 @@ estate_cossacks_exploration_expedition = {
 	influence = 0.05
 	
 	on_granted = {
-		custom_tooltip = estate_cossacks_exploration_expedition_effect_tooltip
+		custom_tooltip = gecko_estate_cossacks_exploration_expedition_effect_tooltip
 		hidden_effect = {
 			every_owned_province = {
 				limit = { has_terrain = steppe }
