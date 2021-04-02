@@ -11,11 +11,12 @@ add_rival = HAB
 
 change_estate_land_share = {
 	estate = estate_burghers
+	share = -5
 }
 
 1378.11.29 = {
 	monarch = {
-		name = "Vï¿½clav IV"
+		name = "Václav IV"
 		dynasty = "von Luxemburg"
 		birth_date = 1361.2.26
 		adm = 2
@@ -28,7 +29,7 @@ change_estate_land_share = {
 
 1419.1.1 = { leader = {	name = "Jan Zizka"	type = general	fire = 6	shock = 3	manuever = 5	siege = 0	death_date = 1424.10.11 } }
 
-1419.1.1 = { leader = {	name = "Prokop Holï¿½"	type = general	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
+1419.1.1 = { leader = {	name = "Prokop Holý"	type = general	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
 
 # Personal Union with Habsburg under Albrecht II 1437-1439
 
@@ -46,7 +47,7 @@ change_estate_land_share = {
 
 1457.11.24 = {
 	monarch = {
-		name = "Jirï¿½"
+		name = "Jirí"
 		dynasty = "z Podebrad"
 		birth_date = 1420.4.23
 		adm = 5
@@ -56,7 +57,7 @@ change_estate_land_share = {
 	queen = {
 		country_of_origin = BOH
 		name = "Joanna"
-		dynasty = "Rozmitï¿½l"
+		dynasty = "Rozmitál"
 		birth_date = 1430.1.1
 		death_date = 1475.11.12
 		female = yes
@@ -95,7 +96,7 @@ change_estate_land_share = {
 	queen = {
 		country_of_origin = NAP
 		name = "Beatrice"
-		dynasty = "de Trastï¿½mara"
+		dynasty = "de Trastámara"
 		birth_date = 1457.11.16
 		death_date = 1500.4.7 #annulled, real death: 1508.9.23
 		female = yes
