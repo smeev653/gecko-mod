@@ -1645,7 +1645,6 @@ crimea={
 	color={
 		59 158 125 
 	}
-
 	outgoing={
 		name="constantinople"
 		path={
@@ -1655,7 +1654,6 @@ crimea={
 			3314.000000 1403.000000 3279.000000 1379.500000 
 		}
 	}
-	
 	outgoing={
 		name="krakow"
 		path={
@@ -1669,7 +1667,6 @@ crimea={
 	members={
 		1323 1322 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412 
 	}
-	
 }
 
 cuiaba={
