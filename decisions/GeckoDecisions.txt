@@ -19,6 +19,7 @@ country_decisions = {
 		potential = {
 				ai = no
 				has_institution = new_world_i
+				NOT = { has_country_modifier = hired_explorer }
 			}
 			allow = {
 				has_institution = new_world_i
@@ -26,6 +27,11 @@ country_decisions = {
 			effect = {
 				add_years_of_income = -0.3
 				create_explorer = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_explorer"
+				duration = 1825
+				hidden = yes
+				}
 			}
 		}	
 		
@@ -33,6 +39,7 @@ country_decisions = {
 		potential = {
 				ai = no
 				has_institution = new_world_i
+				NOT = { has_country_modifier = hired_conquistador }
 			}
 			allow = {
 				has_institution = new_world_i
@@ -40,6 +47,11 @@ country_decisions = {
 			effect = {
 				add_years_of_income = -0.3
 				create_conquistador = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_conquistador"
+				duration = 1825
+				hidden = yes
+				}
 			}	
 		}
 	gecko_absolutism = {

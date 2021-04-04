@@ -936,7 +936,7 @@ influence_ideas = {
 	category = DIP
 
 	bonus = {
-		unjustified_demands = -0.5
+		unjustified_demands = -1
 	}
 
 	tribute_system = {
@@ -944,7 +944,7 @@ influence_ideas = {
 	}
 	
 	additional_loyalist_recruitment = {
-		reduced_liberty_desire = 15
+		reduced_liberty_desire = 25
 	}
 	
 	integrated_elites = {
