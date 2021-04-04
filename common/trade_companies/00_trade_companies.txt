@@ -382,6 +382,7 @@ trade_company_north_sea = {
 	color = { 117 165 188 }
 	
 	provinces = {
+		1975 1266 1280 1281 1282 1929   #Seas and Wastelands
 		248 249 251 #lowlands_area
 		246 247 4361 4362 #scottish_marches_area
 		253 4364 4365 #kingdom_of_the_isles_area
@@ -390,10 +391,9 @@ trade_company_north_sea = {
 		373 374 4120 4379 #leinster_area
 		372 4121 4380 #ulster_area
 		4118 4377 4378 #munster_area
-		10 20 21 #northern_norway
 		1978 1979 #subarctic_islands_area
 		370 371 #iceland_area
-		23 24 2752 4145 #western_norway
+		4375 244
 	}
 	
 	# Specific
@@ -410,12 +410,14 @@ trade_company_white_sea = {
 	color = { 210 46 28 }
 	
 	provinces = {
+		1652 315 1777 4151
 		1955 4122 4256 4257 #arkhangelsk_area
 		313 1776 1958 4258 #pomor_area
-		1777 4151 315 # laponia
-		1755 4129 1964 1963 # perm
-		
-		1077
+		32 309 4124 #north karelia #smeev
+		33 34 30 1961 #south karelia #smeev
+		274 275 1960 4148 #pskov_area #smeev 
+		310 311 1959 2749 4260 #novgorod_area #smeev
+		312 4259 4261 #beloozero_area #smeev
 	}
 	
 	# Specific
@@ -432,8 +434,14 @@ trade_company_lubeck = {
 	color = { 190 70 70 }
 	
 	provinces = {
-		6 12 13 14 15 16 17 22 26 44 45 46 47 48 53 54 55 1775 1857 1874 1858 1981 1982 1983 1984 7 2994 2995 2996 4141 4142 4143 4144 4149 4163 4164 4165 
-		4749 4745 4746 4771 4772 4786
+		12 13 14 15 44 45 46 53 54 55 1775 1857 1874 1981 1983 1984  2996 4141 4142 4149
+		4749 4771 4772 4786
+		10 20 21 #northern_norway #smeev
+		23 24 2752 4145 #western_norway #smeev
+		4143 22 17 4144 #oslo #smeev
+		4153 4146 #smeev
+		47 4745 2994 1858 #vorpommern #smeev
+		48 4746 2995 #hinterpommern #smeev
 	}
 	
 	# Specific
@@ -450,8 +458,9 @@ trade_company_baltic_sea = {
 	color = { 8 82 165 }
 	
 	provinces = {
-		1 2 3 4 5 1985 8 9 11 18 19 25 27 28 29 31 35 37 38 39 40 271 273 1930 1935 1936 41 42 43 1841 767 2958 2997 4113 4114 4123 4152 4166 270 36 1834 1842 4241
-		4534
+		1926 1 2 3 4 5 1985 8 9 11 18 19 25 27 28 29 31 35 37 38 39 273 1930 1935 4113 4114 4123 4152 4166 36 1834 1842 4241
+		26 1982 4165 6 #skaneland #smeev
+		16 4164 7 4163 #gotaland #smeev
 	}
 	
 	# Specific
@@ -468,11 +477,10 @@ trade_company_english_channel = {
 	color = { 220 138 57 }
 	
 	provinces = {
-		167 168 1879 4385 #normandy_area
-		87 88 89 1743 #picardy_area
+		1269 1269 1270 1271 #Seas
 		241 242 4366 4369 #wales_area
 		245 4367 4368 4785 #yorkshire_area
-		239 240 244 4372 4375 #west_midlands_area
+		239 240 4372 #west_midlands_area
 		243 1860 1861 4370 4376 #east_midlands_area
 		233 234 4130 4373 4374 #wessex_area
 		235 236 237 238 4371 #home_counties_area
@@ -497,15 +505,16 @@ trade_company_bordeaux = {
 	color = { 36 132 247 }
 	
 	provinces = {
+		1276 #Water 
 		190 195 199 # massif_central_area
-		169 170 171 172 4384 #brittany_area
 		194 198 4112 #guyenne_area
 		180 4111 4386 4387 #poitou_area
-		173 209 210 #basque_country
 		174 175 176 #pyrenees_area
-		177 178 4389 #loire_area
-		2989
 		4694 4697 4777 # new for 1.30
+		196 200 2753 4391 4695 #languedoc_area #smeev genoa remerge
+		203 204 205 4719 #savoy_dauphine_area #smeev genoa remerge
+		201 202 2991 4696  # new for 1.30 #provence_area
+		173 #labourd
 	}
 	
 	# Specific
@@ -522,9 +531,10 @@ trade_company_sevilla = {
 	color = { 57 160 101 }
 	
 	provinces = {
-		206 207 208 1746 215 216 231 232 217 218 219 221 222 223 224 225 226 227 228 229 230 334 335 367 1745 1747 1748 1749 1751 1851 2754 2755 2751 4150 
+		206 207 208 1746 215 216 231 232 1293 217 218 219 221 222 223 224 225 226 227 228 229 230 334 335 367 1745 1747 1748 1749 1751 1851 2754 2755 2751 4150 
 		4546 4547 4548 4551 4552 4553 4554 4555 4556 4558
 		4561 4563 368 366 4565 4787 4788 4789
+		209 210 2989 #basque_country #smeev
 	}
 	
 	# Specific
@@ -576,11 +586,11 @@ trade_company_valencia = {
 	color = { 87 70 168 }
 	
 	provinces = {
+		1295
 		197 212 213 2987 2988 #catalonia_area
 		220 1750 4549 4550 #valencia_area
 		211 214 2990 4557 #aragon_area
 		333 4559 4560 # Baleares
-		196 200 2753 4391 4695 #languedoc_area
 	}
 	
 	# Specific
@@ -601,10 +611,13 @@ trade_company_champagne = {
 		179 184 4776 # Orleans area
 		181 186 4390 #champagne_area
 		187 188 189 #lorraine_area
-		165 1867 1871 #romandie_area
-		91 93 94 1866 #wallonia_area
 		191 192 193 1877 4392 #bourgogne_area
-		4720 4721 4764 4766 
+		167 168 1879 4385 #normandy_area #smeev
+		169 170 171 172 4384 #brittany_area #smeev
+		4764 4766 
+		91 93 94 1866 #wallonia_area
+		177 178 179 184 4389 #loire_area #smeev
+		87 88 89 1743 #picardy_area #smeev
 	}
 	
 	# Specific
@@ -621,19 +634,17 @@ trade_company_genua = {
 	color = { 218 215 56 }
 	
 	provinces = {
+		1298 #Sea
 		124 125 126 2982 #sicily_area
 		115 116 117 2978 2980 #tuscany_area
 		123 1934 2984 #calabria_area
 		101 102 2992 #liguria_area
 		103 1875 2981 #piedmont_area
-		127 1247 2986 #corsica_sardinia_area
-		201 202 2991 #provence_area
-		4696  # new for 1.30
+		127 1247 2986 #corsica_sardinia_area	
 		4727 4735 4736 4737 # also new for 1.30, but this time it's in Italy
 		118 2976 4731 4732 # lazio-umbria
 		121 2983 4734 # campania
-		203 204 205 4719 #savoy_dauphine_area
-		104 1862 2979 4728 4740 # Lombardy
+		104 1862 2979 4728 4740 # Lombardy	
 	}
 	
 	# Specific
@@ -651,6 +662,8 @@ trade_company_tunis = {
 	
 	provinces = {
 		355 339 340 341 350 351 352 353 354 1882 2448 2449 2450 2451 2452 2453 2454 2455 2456 2457 2458 2472 2473 2474 2954 4566 4567
+		344 345 346 347 348 1110 2460 2464 2466 2467 2468 2469 2470 342 343 349 2459 2462 2463 336 337 338 2461 2465 # PR change
+		4564 4562 4568 # PR change
 	}
 	
 	# Specific
@@ -667,9 +680,11 @@ trade_company_rheinland = {
 	color = { 114 171 184 }
 	
 	provinces = {
-		56 72 74 75 77 78 79 80 81 82 83 84 85 86 1760 1761 1869 1870 1876 1878 1880 2973 2975 166 1873 2972 1762 66 67 
-		4714 4718 4715 4716 4717 71 69
-		4722 4765 4767 4768 4774 4775
+		56 77 78 79 80 81 82 83 84 85 86 1760 1761 1876 1878 2973 2975 2972 1762 66 67 
+		4718 4715 4716 4717 71 69
+		4767 4768 4774 4775
+		49 50 57 62 63 1758 51 60 61  1759 1763 52 58 59 2964 2965 2971 2969 2993
+		4741 4742 4743 4744 4747 4748 4773 4778
 	}
 	
 	# Specific
@@ -682,23 +697,23 @@ trade_company_rheinland = {
 	}
 }
 
-trade_company_saxony = {
-	color = { 36 182 69 }
-	
-	provinces = {
-		49 50 57 62 63 1758 51 60 61 267 1759 1763 1771 52 58 59 2964 2965 2967 2971 2969 266 2968 2970 2993
-		4724 4725 4741 4742 4743 4744 4747 4748 4773 4778
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_SAXONY_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_SAXONY_European_Trade_Company"
-	}
-}
+#trade_company_saxony = {
+#	color = { 36 182 69 }
+#	
+#	provinces = {
+#		49 50 57 62 63 1758 51 60 61 267 1759 1763 1771 52 58 59 2964 2965 2967 2971 2969 266 2968 2970 2993
+#		4724 4725 4741 4742 4743 4744 4747 4748 4773 4778
+#	}
+#	
+#	# Specific
+#	# Generic
+#	names = {
+#		name = "TRADE_COMPANY_SAXONY_Root_Culture_GetName"
+#	}
+#	names = {
+#		name = "TRADE_COMPANY_SAXONY_European_Trade_Company"
+#	}
+#}
 
 trade_company_wien = {
 	color = { 220 220 220 }
@@ -708,6 +723,12 @@ trade_company_wien = {
 		4707 4708 4709 4710 4711 4712 4713
 		4758 4759 4760 4761 4762 # Austria 1.30
 		265 4237 4726 # Moravia
+		4714 72 74 #baden #smeev
+		75 4765 1880 #alsace #smeev
+		1873 4722 1870 166 1869 #switzerland #smeev
+		165 1867 1871 4721 4720 #romandie_area #smeev
+		266 4724 4725 2968 2970  #bohemia #smeev
+		267 2967 1771 #erzgebirge #smeev
 	}
 	
 	# Specific
@@ -724,8 +745,10 @@ trade_company_venice = {
 	color = { 54 167 156 }
 	
 	provinces = {
-		105 106 107 108 109 111 112 113 114 119 120 122 129 130 1769 1774 1933 2977 2985 4729 4730 4733 4738 4739 4751
-		
+		105 106 107 108 109 111 112 113 114 119 120 122 129 130 1308 1769 1774 1933 2977 2985 4729 4730 4733 4738 4739 4751
+		131 4752 1826 #croatia #smeev
+		4174 4750 143 4175 #albania #smeev
+		4754 4753 136 137 #dalmatia #smeev
 	}
 	
 	# Specific
@@ -745,6 +768,9 @@ trade_company_krakow = {
 		258 259 260 261 262 263 264 1940 256 257 1938 1939 254 255 2424 2959 2960 2961 2966 
 		4238 2963 1859 4523 4524 4526 4528 4525 4527 4533 4541
 		4723
+		43 2997 1841 #west prussia #smeev
+		2958 42 767 41 40 #east prussia #smeev
+		268 1756 2405 4529 4530 #moldavia #smeev
 	}
 	
 	# Specific
@@ -766,7 +792,10 @@ trade_company_pest = {
 		154 162 1318 1772 4236 # Slovakia
 		157 158 1952 4127 # Northern Transylvania
 		156 1951 4128 # Southern Transylvania
-		152 1767 4173 4756 # Slavonia
+		152 1767 4173 4756 1828 # Slavonia
+		4239 141 4176 3000 4757 #serbia #smeev
+		1827 1766 138 #rascia #smeev
+		140 4755 3002 139 1831 #bosnia #smeev	
 	}
 	
 	# Specific
@@ -783,9 +812,15 @@ trade_company_ragusa = {
 	color = { 85 89 67 }
 	
 	provinces = {
-		137 138 139 140 141 142 143 144 147 1766 1827 1831 1853 3000 3002 3001 4174 4175 4176 131 148 1828 136 1826 4239
+		142 144 147 1853 3001 148
 		145 146 163 1773 #morea_area
-		4702 4699 4698 4701 4750 4752 4753 4754 4755 4757 4780 # 1.30
+		4702 4699 4698 4701  4780 # 1.30
+		160 161 2998 4531 4532 # wallachia_area #smeev change
+		4703 1765 2746 150 2750 #bulgaria # smeev
+		159 4706 4704 #silistria #smeev
+		1764 151 4779 4705 149 #thrace #smeev
+		4700 164 320 2348 3003 #aegean_archipelago_area
+		1319 #aegean sea #smeev
 	}
 	
 	# Specific
@@ -802,15 +837,17 @@ trade_company_constantinople = {
 	color = { 126 203 120 }
 	
 	provinces = {
-		149 151 1764 325 328 2299 2304 150 159 1765 2746 2750
+		1320 325 328 2299 2304 
 		329 1846 2300 4314 4315 #rum_area
 		316 317 2296 #hudavendigar_area
 		322 1848 4308 4311 #germiyan_area
 		318 319 2297 2298 4309 #aydin_area
 		326 4312 4313 #ankara_area
-		164 320 2348 3003 #aegean_archipelago_area
-		4700 4703 4704 4705 4706 4779 # 1.30
-		160 161 2998 4531 4532 # wallachia_area #smeev change
+		321 327 2302 #cukurova_area #smeev
+		323 324 2301 4307 #karaman_area #smeev
+		332 2303 4310 #dulkadir_area #smeev
+		331 2305 330 #erzurum #smeev
+		418 2306 2307 4295 4296 #north_kurdistan_area
 	}
 	
 	# Specific
@@ -828,11 +865,6 @@ trade_company_alexandria = {
 	
 	provinces = {
 		1234 2322 2323 #lower_nubia_area
-		364 379 1854 #palestine_area
-		384 2329 2330 #medina_area
-		383 2328 4268 4269 #tabuk_area
-		385 2331 2332 4277 4278 #mecca_area
-		380 381 2327
 		365 2315 2320 2321 #gulf_of_arabia_area
 		1233 2318 4323 #al_wahat_area
 		358 362 363 #delta_area
@@ -840,6 +872,9 @@ trade_company_alexandria = {
 		359 2317 4318 #vostani_area
 		360 1231 2319 4319 4320 #said_area
 		356 357 2325 2326 #cyrenaica_area
+		4321 4322 #Wastelands
+		2324 1232 1230 2787 #red sea coast
+		364 #ghazzah
 	}
 	
 	# Specific
@@ -941,7 +976,7 @@ trade_company_gulf_of_aden = {
 	color = { 96 75 65 }
 	
 	provinces = {
-		2324 2775 2782 2783 2786 2788 2789 2790 2793 2794 2795 2024 1205 1206 1209 1212 1215 1230 2765 2773 2792 2784 1211 2764 2787 1232 1779 
+		2775 2782 2783 2786 2788 2789 2790 2793 2794 2795 2024 1205 1206 1209 1212 1215 2765 2773 2792 2784 1211 2764  1331 1779 
 		2768 #Angot
 		402 1099 4284 #mahra_area
 		387 2346 4279 #tihama_al_yemen_area
@@ -949,6 +984,9 @@ trade_company_gulf_of_aden = {
 		388 2345 4280 #yemen_area
 		386 391 4282 #asir_area
 		389 2343 4283 #hadramut_area
+		1328 1329 1330 4333 #Red Sea Area
+		385 2331 2332 4277 4278 #mecca_area #smeev
+		4346
 	}
 	
 	# Specific
@@ -967,13 +1005,13 @@ trade_company_kiev = {
 	provinces = {
 		272 279 281 770 1937 1943 2962 277 278 1941 
 		291 298 299 2408 #sloboda_ukraine_area
-		293 297 4244 4245 #smolensk_area
-		296 300 4116 #oka_area
 		280 1942 1944 4247 #west_dniepr_area
 		289 290 1945 2407 #east_dniepr_area
 		292 771 4246 #White Ruthenia
 		276 4115 4242 #minsk_area
 		4538 4537 4536 4535 4545 4544 4540 4539 4542 4543 269
+		271 1936 4534 270 #samogitia #smeev
+		293 297 4244 4245 #smolensk_area #smeev
 	}
 	
 	# Specific
@@ -990,18 +1028,18 @@ trade_company_novgorod = {
 	color = { 97 126 37 }
 	
 	provinces = {
-		30 32 309 4124 33 34 1961 
-		274 275 1960 4148 #pskov_area
-		310 311 1959 2749 4260 #novgorod_area
-		294 1752 4243 4248 4249  #tver_area
+		294 1752 4243 4248 4249 #tver_area
 		295 4251 4252 #moscow_area
 		307 4147 4253 #vladimir_area
 		308 1753 4117 4250 #yaroslavl_area
 		1754 1956 4254 #suzdal_area
-		312 4259 4261 #beloozero_area
-		306 1079 1083 1957 #galich_area #smeev mod
-		305 1962 1972 4266 #kama_area #smeev mod
-		314 4262 4263 #vologda_area #smeev mod
+		306 1079 1083 1957 #galich_area #smeev
+		305 1962 1972 4266 #kama_area #smeev
+		1082 2422 4264 #kazan_area #smeev
+		314 4262 4263 #vologda_area #smeev
+		1755 4129 1077 1963 1964 #perm_area #smeev
+		301 1778 4255 #ryazan_area #smeev
+		296 300 4116 #oka_area #smeev
 	}
 	
 	# Specific
@@ -1019,7 +1057,7 @@ trade_company_crimea = {
 	color = { 59 158 125 }
 	
 	provinces = {
-	 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412  268 1756 2405 4529 4530
+	1323 1322 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412
 	}
 	
 	# Specific
@@ -1036,12 +1074,13 @@ trade_company_aleppo = {
 	color = { 202 150 172 }
 	
 	provinces = {
-		377 1849 2313 4298 #aleppo_area
+		2308 377 1849 2313 4298 #aleppo_area
+		#transjordan
+		379 1854 380 381 #palestine_area
 		378 382 1855 4297 #syria_area
-		332 2303 2308 4310 #dulkadir_area
-		321 327 2302 #cukurova_area
-		323 324 2301 4307 #karaman_area
+		407 4292 405 4270 4271 #syrian_desert_area
 	}
+	
 	
 	# Specific
 	# Generic
@@ -1061,11 +1100,10 @@ trade_company_astrakhan = {
 		288 303 465 467 469 470 474 1971 2365 2367 2366 2409 2418 2419 472 471  466 468  
 		302 304 2415 #tambov_area
 		2416 2417 464 #astrakhan_area
-		2421 4265 4267 #volga_area #smeev mod
-		475 1965 1966 2420 2444 #bashkiria_area #smeev mod
-		473 1081 2423 #samara_area #smeev mod
-		1082 2422 4264 #kazan_area #smeev mod
-		301 1778 4255 #ryazan_area #smeev mod
+		2421 4265 4267 #volga_area
+		475 1965 1966 2420 2444 #bashkiria_area
+		473 1081 2423 #samara_area
+		439 443 #transcaspia smeev
 	
 	}
 	
@@ -1084,15 +1122,18 @@ trade_company_basra = {
 	
 	provinces = {
 	
+		1335 #Persian Gulf
 		394 395 396 2340 2347 #bahrain_area
 		393 2338 4272 #nafud_area
 		392 2337 4273 4274 #qasim_area
 		2335 2336 2339 4275 #yamamah_area
 		408 2311 2312 4288 #basra_area
 		406 409 410 2310 4291 #iraq_arabi_area
-		407 411 2309 2314 4292 #al_jazira_area
-		415  4293 4294 #shahrizor_area
-		405 4270 4271 #syrian_desert_area #smeev mod
+		415 4293 4294 #shahrizor_area
+		411 2309 2314  #al_jazira_area
+		2334 4276 #Wasteland
+		384 2329 2330 #medina_area #smeev
+		383 2328 4268 4269 2327 #tabuk_area #smeev
 		
 	}
 	
@@ -1142,14 +1183,13 @@ trade_company_caucasus = { #smeev mod
 	color = { 116 0 0 }
   
 	provinces = { 
-		1323 1322 462 1856 463 2201 2195 2197 422 
+		1323 1322 462 1856 463 2201 2195 2197 422
 		423 2203 4301 #kartli_kakheti_area
 		2196 2204 4303 #samtskhe_area
 		425 2198 2199 2208 4306 #dagestan_area
 		421 4299 4305 4340 #shirvan_area
 		419 420 2202 2205 4302 #armenia_area
-		418 2306 2307 4295 4296 #north_kurdistan_area #smeev mod
-		330 331 2305  #smeev mod
+		4179
 		
 		
 	}
@@ -1165,7 +1205,8 @@ trade_company_hormuz = {
 		403 4285 4287 #oman_area
 		399 400 4286 #mascat_area
 		431 2999 4327 #mogostan_area
-		401 2341 2342 #dhofar_area #smeev mod
+		401 2341 2342 #dhofar_area
+		1332 1334 1335 4347#Sea
 	}
 	
 	# Specific
@@ -1334,17 +1375,19 @@ trade_company_lahore = {
 	color = { 63 150 30 }
 	
 	provinces = {
+		1785 1787 2200 #Wastelands
 		508 2073 2074 4449 4521 #kashmir_area
 		507 2075 2076 4510 4513 #lahore_area
 		506 2079 2086 4508 4509 #multan_area
 		2077 2078 4511 #sind_sagar_area
 		510 2065 4411 4463 #sirhind_area
 		576 577 2068 #kalat_area
-		448 451 452 578 2226 #kabulistan_area
-		447 449 2225 #ghor_area
-		450 2227 2228 #balkh_area
-		446 #herat #smeev mod
-		522 2060 2062 #upper_doab_area
+		448 451 452 578 2226 #kabulistan_area #smeev
+		447 449 2225 #ghor_area #smeev
+		450 2227 2228 #balkh_area #smeev
+		446 #herat #smeev change
+		1968 4344 4343 #termez_area #smeev change
+		522 2060 2062 #upper_doab_area #smeev change
 	}
 	
 	# Specific
