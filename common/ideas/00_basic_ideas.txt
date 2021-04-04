@@ -96,30 +96,29 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.25
-	}
-
-	patron_of_art  = {
-		prestige_decay = -0.01
-	}
-	empiricism = {
-		innovativeness_gain = 0.5
+		possible_mil_policy = 1
 	}
 	scientific_revolution = {
 		technology_cost = -0.1
 		embracement_cost = -0.1
 	}
+	empiricism = {
+		innovativeness_gain = 0.5
+	}
+	patron_of_art  = {
+		prestige_decay = -0.01
+	}
 	dynamic_court = {
 		advisor_pool = 1
 	}
 	print_culture = {
-		global_institution_spread = 0.25
+		drill_decay_modifier = -0.2
 	}
 	optimism = {
 		war_exhaustion = -0.05
 	}
 	formalized_officer_corps = {
-		free_leader_pool = 1
+		free_leader_pool = 2
 	}
 
 	ai_will_do = {
