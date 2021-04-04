@@ -1228,7 +1228,7 @@ hormuz={
 		399 400 4286 #mascat_area
 		431 2999 4327 #mogostan_area
 		401 2341 2342 #dhofar_area
-		1332 1334 1335 4347#Sea
+		1332 1334 4347#Sea
 	}
 }
 cape_of_good_hope={
@@ -1330,13 +1330,12 @@ georgia={ #smeev mod
 		}
 	}
 	members={
-		1323 1322 462 1856 463 2201 2195 2197 422
+		462 1856 463 2201 2195 2197 422
 		423 2203 4301 #kartli_kakheti_area
 		2196 2204 4303 #samtskhe_area
 		425 2198 2199 2208 4306 #dagestan_area
 		421 4299 4305 4340 #shirvan_area
 		419 420 2202 2205 4302 #armenia_area
-		4179
 		 }
 }
 
@@ -1363,7 +1362,6 @@ samarkand={
 	}
 	members={
 		440 441 442 444 445 453 454 455 456 457 459 476 477 1967 1969 1970 1973 461 478 2126 2370 2362 2363 2356 2364 2368 2355 2360 2361 2358 2352 2351 2353 2359 458 2125 460 2350 437 438  2349 739 2124 2127 4209 4210 
-		1968 4344 4343 #termez_area
 		4685
 		439 443
 	}
@@ -1420,6 +1418,129 @@ persia={
 		4177 4170 4172 #Wasteland
 		424 #ardabil #smeev mod
 		2211 #ardalan #smeev mod
+	}
+}
+
+novgorod={
+	location=295
+	color={
+		97 126 37 
+	}
+	
+	outgoing={
+		name="astrakhan"
+		path={
+			 310 312 308 307 306  
+		}
+		control={
+			 3418.000000 1617.000000 3442.000000 1576.000000 3519.000000 1545.500000 3513.500000 1523.500000 3509.000000 1514.500000  3500.500000 1491.000000
+		}
+	}
+	
+	outgoing={
+		name="white_sea"
+		path={			 
+		}
+		control={	
+			3301.000000 1705.000000 
+		}
+	}
+	members={
+		294 1752 4243 4248 4249 #tver_area
+		295 4251 4252 #moscow_area
+		307 4147 4253 #vladimir_area
+		308 1753 4117 4250 #yaroslavl_area
+		1754 1956 4254 #suzdal_area
+		306 1079 1083 1957 #galich_area #smeev
+		305 1962 1972 4266 #kama_area #smeev
+		1082 2422 4264 #kazan_area #smeev
+		314 4262 4263 #vologda_area #smeev
+		1755 4129 1077 1963 1964 #perm_area #smeev
+		301 1778 4255 #ryazan_area #smeev
+		296 300 4116 #oka_area #smeev
+	}
+}
+astrakhan={
+	location=464
+	inland=yes
+	
+		outgoing={
+		name="crimea"
+		path={
+			468 287 1323 
+		}
+		control={
+			3487.000000 1457.000000 3419.000000 1458.000000 3394.500000 1453.500000 3380.000000 1430.500000 3372.500000 1414.500000 3345.000000 1397.500000
+		}
+	}
+	
+	outgoing={
+		name="kiev"
+		path={
+			467 299 280
+		}
+		control={
+			3460.000000 1472.000000 3414.000000 1550.000000 3324.000000 1523.000000
+		}
+	}	
+	members={
+		288 303 465 467 469 470 474 1971 2365 2367 2366 2409 2418 2419 472 471  466 468  
+		302 304 2415 #tambov_area
+		2416 2417 464 #astrakhan_area
+		2421 4265 4267 #volga_area
+		475 1965 1966 2420 2444 #bashkiria_area
+		473 1081 2423 #samara_area		
+	}
+}
+
+kiev={
+	location=280
+	outgoing={
+		name="white_sea"
+		path={
+			278 292 275 311 310 
+		}
+		control={
+			3260.000000 1570.000000 3296.500000 1603.000000 3290.500000 1651.000000 3300.000000 1680.000000 
+		}
+	}
+	outgoing={
+		name="krakow"
+		path={
+			279 260 262 
+		}
+		control={
+			3221.000000 1531.000000 3171.000000 1539.000000 
+		}
+	}
+	outgoing={
+		name="crimea"
+		path={
+			  280 281 282 284 
+		}
+		control={
+			 3290.000000 1506.000000 3297.000000 1470.000000 3307.169922 1429.410034
+		}
+	}	
+	outgoing={
+		name="baltic_sea"
+		path={
+			279
+		}
+		control={
+			3238.000000 1598.000000 3212.000000 1610.000000 3189.500000 1666.000000 
+		}
+	}
+	members={
+		272 279 281 770 1937 1943 2962 277 278 1941 
+		291 298 299 2408 #sloboda_ukraine_area
+		280 1942 1944 4247 #west_dniepr_area
+		289 290 1945 2407 #east_dniepr_area
+		292 771 4246 #White Ruthenia
+		276 4115 4242 #minsk_area
+		4538 4537 4536 4535 4545 4544 4540 4539 4542 4543 269
+		271 1936 4534 270 #samogitia #smeev
+		293 297 4244 4245 #smolensk_area #smeev
 	}
 }
 crimea={
@@ -1602,131 +1723,6 @@ alexandria={
 		4321 4322 #Wastelands
 		2324 1232 1230 2787 #red sea coast
 		364 #ghazzah
-	}
-}
-
-novgorod={
-	location=295
-	color={
-		97 126 37 
-	}
-	
-	outgoing={
-		name="astrakhan"
-		path={
-			 310 312 308 307 306  
-		}
-		control={
-			 3418.000000 1617.000000 3442.000000 1576.000000 3519.000000 1545.500000 3513.500000 1523.500000 3509.000000 1514.500000  3500.500000 1491.000000
-		}
-	}
-	
-	outgoing={
-		name="white_sea"
-		path={			 
-		}
-		control={	
-			3301.000000 1705.000000 
-		}
-	}
-	members={
-		294 1752 4243 4248 4249 #tver_area
-		295 4251 4252 #moscow_area
-		307 4147 4253 #vladimir_area
-		308 1753 4117 4250 #yaroslavl_area
-		1754 1956 4254 #suzdal_area
-		306 1079 1083 1957 #galich_area #smeev
-		305 1962 1972 4266 #kama_area #smeev
-		1082 2422 4264 #kazan_area #smeev
-		314 4262 4263 #vologda_area #smeev
-		1755 4129 1077 1963 1964 #perm_area #smeev
-		301 1778 4255 #ryazan_area #smeev
-		296 300 4116 #oka_area #smeev
-	}
-}
-astrakhan={
-	location=464
-	inland=yes
-	
-		outgoing={
-		name="crimea"
-		path={
-			468 287 1323 
-		}
-		control={
-			3487.000000 1457.000000 3419.000000 1458.000000 3394.500000 1453.500000 3380.000000 1430.500000 3372.500000 1414.500000 3345.000000 1397.500000
-		}
-	}
-	
-	outgoing={
-		name="kiev"
-		path={
-			467 299 280
-		}
-		control={
-			3460.000000 1472.000000 3414.000000 1550.000000 3324.000000 1523.000000
-		}
-	}	
-	members={
-		288 303 465 467 469 470 474 1971 2365 2367 2366 2409 2418 2419 472 471  466 468  
-		302 304 2415 #tambov_area
-		2416 2417 464 #astrakhan_area
-		2421 4265 4267 #volga_area
-		475 1965 1966 2420 2444 #bashkiria_area
-		473 1081 2423 #samara_area
-		439 443 #transcaspia smeev
-		
-	}
-}
-
-kiev={
-	location=280
-	outgoing={
-		name="white_sea"
-		path={
-			278 292 275 311 310 
-		}
-		control={
-			3260.000000 1570.000000 3296.500000 1603.000000 3290.500000 1651.000000 3300.000000 1680.000000 
-		}
-	}
-	outgoing={
-		name="krakow"
-		path={
-			279 260 262 
-		}
-		control={
-			3221.000000 1531.000000 3171.000000 1539.000000 
-		}
-	}
-	outgoing={
-		name="crimea"
-		path={
-			  280 281 282 284 
-		}
-		control={
-			 3290.000000 1506.000000 3297.000000 1470.000000 3307.169922 1429.410034
-		}
-	}	
-	outgoing={
-		name="baltic_sea"
-		path={
-			279
-		}
-		control={
-			3238.000000 1598.000000 3212.000000 1610.000000 3189.500000 1666.000000 
-		}
-	}
-	members={
-		272 279 281 770 1937 1943 2962 277 278 1941 
-		291 298 299 2408 #sloboda_ukraine_area
-		280 1942 1944 4247 #west_dniepr_area
-		289 290 1945 2407 #east_dniepr_area
-		292 771 4246 #White Ruthenia
-		276 4115 4242 #minsk_area
-		4538 4537 4536 4535 4545 4544 4540 4539 4542 4543 269
-		271 1936 4534 270 #samogitia #smeev
-		293 297 4244 4245 #smolensk_area #smeev
 	}
 }
 
@@ -2467,7 +2463,7 @@ champagne={
 		169 170 171 172 4384 #brittany_area #smeev
 		4764 4766 
 		91 93 94 1866 #wallonia_area
-		177 178 179 184 4389 #loire_area #smeev
+		177 178 4389 #loire_area #smeev
 		87 88 89 1743 #picardy_area #smeev
 	}
 }
@@ -2512,7 +2508,7 @@ english_channel={
 		220 138 57 
 	}
 	members={
-		1269 1269 1270 1271 #Seas
+		1269 1270 1271 #Seas
 		241 242 4366 4369 #wales_area
 		245 4367 4368 4785 #yorkshire_area
 		239 240 4372 #west_midlands_area
