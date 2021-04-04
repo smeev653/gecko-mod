@@ -230,6 +230,10 @@ spy_ideas = {
 
 diplomatic_ideas = {
 	category = DIP
+	
+	trigger = {
+		always = no
+	}
 	bonus = {
 		reduced_stab_impacts = yes
 	}
@@ -936,28 +940,29 @@ influence_ideas = {
 	category = DIP
 
 	bonus = {
-		unjustified_demands = -1
+		reduced_stab_impacts = yes
 	}
 
 	tribute_system = {
-		vassal_income = 0.25
+		unjustified_demands = -0.75
 	}
 	
 	additional_loyalist_recruitment = {
 		reduced_liberty_desire = 25
 	}
-	
+	diplomatic_influence = {
+		diplomatic_reputation = 2
+		accept_vassalization_reasons = 5
+	}
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.25
 	}
 	buffer_states = {
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 2
 	}
-	diplomatic_influence = {
-		diplomatic_reputation = 2
-	}
-	postal_service = {
-		envoy_travel_time = -0.25
+	
+	flexible_negotiation = {
+		province_warscore_cost = -0.2
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 1
