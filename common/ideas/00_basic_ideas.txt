@@ -106,10 +106,10 @@ innovativeness_ideas = {
 		innovativeness_gain = 0.5
 	}
 	patron_of_art  = {
-		prestige_decay = -0.01
+		prestige_decay = -0.02
 	}
 	dynamic_court = {
-		advisor_pool = 1
+		idea_cost = -0.1
 	}
 	print_culture = {
 		drill_decay_modifier = -0.2
@@ -854,28 +854,29 @@ administrative_ideas = {
 	bonus = {
 		advisor_cost = -0.25
 	}
-
-	organised_mercenary_payment = {
-		mercenary_cost = -0.25
-	}
+	
 	adm_adaptability = {
 		reform_progress_growth = 0.2	
 	}
+	organised_mercenary_payment = {
+		state_maintenance_modifier = -0.5
+	}
+	civil_servants = {
+		monthly_splendor = 3
+	}
 	benefits_for_mercenaries = {
-		merc_maintenance_modifier = -0.25
+		merc_maintenance_modifier = -0.5
 	}
 	bookkeeping = {
 		interest = -0.5
 	}
 	organised_mercenary_recruitment = {
-		mercenary_manpower = 0.25
-	}
-	administrative_efficiency_idea = {
 		expand_administration_cost = -0.75
 	}
-	civil_servants = {
-		monthly_splendor = 3
+	administrative_efficiency_idea = {
+		free_policy = 1
 	}
+
 
 	ai_will_do = {
 		factor = 0.96
@@ -888,6 +889,10 @@ administrative_ideas = {
 
 humanist_ideas = {
 	category = ADM
+	
+	trigger = {
+		always = no
+	}
 
 	bonus = {
 		idea_cost = -0.1
