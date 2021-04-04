@@ -248,6 +248,34 @@ vassalaction = {
 			FROM = { ai = yes }
 		}
 	}
+	
+	condition = {
+		tooltip = h_tooltip_many_marches_noinfluence
+		potential = {
+			ROOT = { NOT = { full_idea_group = influence_ideas } }
+		}
+		allow = {
+			NOT = {
+				ROOT = {
+					vassal = 3
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_many_marches_influence
+		potential = {
+			ROOT = { full_idea_group = influence_ideas }
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					vassal = 6
+				}
+			}
+		}
+	}
+	
 }
 
 guaranteeaction = {

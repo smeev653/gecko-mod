@@ -49,26 +49,16 @@ empowered_subjects = {
 	global_regiment_cost = -0.33
 	global_regiment_recruit_speed = -0.5
 	global_ship_cost = -0.33
-	land_forcelimit = 7
+	land_forcelimit = 3
+	land_forcelimit_modifier = 0.5
 	global_unrest = -5
 	interest = -2
 	yearly_corruption = -1.0
 	war_exhaustion = -0.05
 	core_creation = -0.25
 	naval_forcelimit_modifier = 0.5
-	global_trade_goods_size_modifier = 0.5
+	global_trade_goods_size_modifier = 0.25
 	idea_cost = -0.25
-	land_morale = 0.05
 	loot_amount = 0.25
 }
-
-
-#low_army_tradition = {
-#	potential = {
-#		NOT = { army_tradition = 40 }
-#		}
-#	trigger = {	
-#		NOT = { army_tradition = 20 }
-#		}
-#	yearly_army_professionalism = -0.02	
-#	}
+	
