@@ -394,7 +394,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.2
+	global_trade_goods_size_modifier = 0.1
 	}
 
 	bureaucracy = {
