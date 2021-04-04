@@ -1256,7 +1256,7 @@ PER_ideas = {
 		infantry_power = 0.10
 	}
 	improved_silk_road = {
-		caravan_power = 0.2
+		caravan_power = 0.5
 	}
 	encouraged_art = {
 		prestige = 1
@@ -3293,7 +3293,7 @@ SON_ideas = {
 		tolerance_own = 2
 	}
 	trans_sahara_trade = {
-		caravan_power = 0.2
+		caravan_power = 0.5
 	}
 }
 
@@ -14036,7 +14036,7 @@ MOR_ideas = {
 	}
 	trans_saharan_trade = {
 		trade_efficiency = 0.1
-		caravan_power = 0.2
+		caravan_power = 0.5
 	}
 	mor_fleet = {
 		galley_power = 0.2

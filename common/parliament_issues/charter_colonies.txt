@@ -4,6 +4,7 @@ charter_colonies = {
 
 	allow = {
 	has_institution = new_world_i
+	was_player = yes
 	}
 	
 	effect = {

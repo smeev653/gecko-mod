@@ -369,7 +369,7 @@ trade_ideas = {
 		trade_steering = 0.25
 	}
 	fast_negotiations = {
-		caravan_power = 0.25
+		caravan_power = 0.5
 	}
 
 	ai_will_do = {

@@ -6,6 +6,9 @@ religion = shiite
 technology_group = muslim
 capital = 2221
 historical_rival = QAR
+historical_rival = SHY
+historical_rival = CHG
+historical_rival = GOL
 
 1444.1.1 = { #At start this represents Astarabad, with alegience to Babur bin Baysunkur.
 	#capital = 2214 #Astarabad
