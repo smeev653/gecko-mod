@@ -484,7 +484,6 @@ allianceaction = {
 			}
 		}
 	}
-}	
 ask_for_march = {
 	condition = {
 		tooltip = h_tooltip_ask_march
@@ -766,6 +765,7 @@ offerloan = {
 		}
 	}
 }
+
 
 giftaction = {
 	condition = {
