@@ -1530,7 +1530,7 @@ kenya_area = {	#5
 }
 
 jubba_area = { #3
-	2777 4051 4052
+	2777 4051 4052 1799
 }
 
 tanzania_area = { #5
@@ -1570,7 +1570,7 @@ uganda_area = { #3
 }
 
 bunyoro_area = { #3
-	4065 4074 4075
+	4065 4074 4075 1798
 }
 
 kasai_area = { #5

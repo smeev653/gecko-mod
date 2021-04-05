@@ -135,28 +135,6 @@ royal_marriage = {
 			always = no
 		}
 	}
-	condition = {
-		tooltip = h_tooltip_marrynative
-		potential = {
-		}
-		allow = {
-			FROM = {
-				NOT = { 
-					has_reform = h_reform_native_empire
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_nativemarry
-		potential = {
-			ROOT = { has_reform = h_reform_native_empire }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
 
 annexationaction = {
 	condition = {
@@ -341,16 +319,6 @@ warningaction = {
 			always = no
 		}
 	}
-	condition = {
-		tooltip = h_tooltip_nativewarn
-		potential = {
-			ROOT = { has_reform = h_reform_native_empire }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
 
 
 threaten_war = {
