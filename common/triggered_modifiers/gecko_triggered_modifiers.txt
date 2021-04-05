@@ -38,7 +38,7 @@ empowered_subjects = {
 		overlord = {
 				has_idea_group = influence_ideas
 				has_idea = tribute_system
-				was_player = yes
+				was_player = yes 
 			}
 		NOT = { is_colonial_nation = yes }	
 		NOT = { is_lesser_in_union = yes }	

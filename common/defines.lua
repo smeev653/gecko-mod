@@ -1118,7 +1118,7 @@ NMilitary = {
 	CAV_REGIMENT_MANPOWER_COST = 1.0, 				-- 1 = 1000 men in cost.
 	ART_REGIMENT_MANPOWER_COST = 1.0, 				-- 1 = 1000 men in cost.
 	HEAVY_SHIP_SAILORS_COST = 200,					-- 1 = 1 men in cost.
-	LIGHT_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
+	LIGHT_SHIP_SAILORS_COST = 100,					-- 1 = 1 men in cost.
 	GALLEY_SHIP_SAILORS_COST = 100,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 10, 								-- years in mp pool
