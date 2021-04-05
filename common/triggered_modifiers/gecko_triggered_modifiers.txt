@@ -41,6 +41,7 @@ empowered_subjects = {
 				was_player = yes
 			}
 		NOT = { is_colonial_nation = yes }	
+		NOT = { is_lesser_in_union = yes }	
 	}
 	global_manpower = 10
 	global_manpower_modifier = 0.5
