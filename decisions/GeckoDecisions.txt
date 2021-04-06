@@ -194,7 +194,6 @@ country_decisions = {
 
 	prepare_for_holy_war = {	
 			potential = {
-					at_war_with_religious_enemy = yes
 					religion_group = muslim
 					has_border_with_religious_enemy = yes
 					army_size_percentage = 1
