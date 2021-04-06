@@ -196,22 +196,18 @@ spy_ideas = {
 		spy_offence = 0.75
 		advisor_cost = -0.15
 	}	
-	
-	agent_training = {
-		power_projection_from_insults = 1
-		prestige = 0.5
-	}
-
-	vetting = {
-		trade_steering = 0.33
-		global_foreign_trade_power = 0.30
-	}
-
 	state_propaganda = {
 		ae_impact = -0.2
 		curia_powers_cost = -0.5
 	}
-	
+	vetting = {
+		trade_steering = 0.33
+		global_foreign_trade_power = 0.30
+	}
+	agent_training = {
+		power_projection_from_insults = 1
+		prestige = 0.5
+	}
 	claim_fabrication = {
 		fabricate_claims_cost = -0.5
 		can_fabricate_for_vassals = yes
