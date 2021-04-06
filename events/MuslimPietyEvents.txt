@@ -1754,7 +1754,7 @@ country_event = {
 		ai_chance = { 
 			factor = 100
 		}
-		add_piety = -0.25
+		add_piety = -0.5
 		add_legitimacy = 10
 		add_country_modifier = {
 			name = friday_prayers
@@ -1767,7 +1767,7 @@ country_event = {
 			factor = 0
 		}
 		add_stability_or_adm_power = yes
-		add_piety = 0.25
+		add_piety = 0.5
 	}
 }
 

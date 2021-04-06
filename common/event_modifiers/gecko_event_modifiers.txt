@@ -43,3 +43,7 @@ hired_explorer = {
 
 hired_conquistador = {
 }
+
+jihad = {
+	monthly_piety = -0.08333	
+}

@@ -769,7 +769,7 @@ positive_piety = { #As of 1.23 Legalism
 
 #For convenience, its multiplied by negative piety in code.
 negative_piety = { #As of 1.23 Mysticism
-	land_morale = 0.15
+	land_morale = 0.10
 	global_missionary_strength = 0.03
 	defensiveness = 0.20
 	manpower_recovery_speed = 0.1 #dum
