@@ -78,7 +78,7 @@
  ######estates and loyalty/influence modifiers######
  #ghilman#
  estate_ghilman: "Ghilman"
- estate_ghilman_desc: "Although a term reserved for slaves, the Ghilman represent an educated class of military commanders and skilled soldiers, who most of all remain ardently loyal to the Shah. It would be wise for any ruler to utilize these strengths to their advantage, and to counterbalance the growing influence of the Qizilbash within our state."
+ estate_ghilman_desc: "Although a term reserved for slaves, the Ghilman represent an educated class of military commanders and skilled soldiers."
  ghilman_loyalty_modifier: "Ghilman Loyalty Equilibrium"
  ghilman_influence_modifier: "Ghilman Influence"
  estate_ghilman_ownership: "Ghilman Land Ownership"

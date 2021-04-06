@@ -661,7 +661,7 @@ mamluk_government = {
 	nation_designer_trigger = {
 		religion_group = muslim
 	}
-
+	
 	modifiers = {
 		num_accepted_cultures = 3
 		#-50% cost to promote cultures
@@ -677,6 +677,11 @@ mamluk_government = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
 			mamluk_mechanic
+		}
+		has_pashas = yes 
+	
+	custom_attributes = {
+		enables_ghilman_estate = yes #used for localization of estate privilege
 		}
 		heir = no
 		foreign_slave_rulers = yes
