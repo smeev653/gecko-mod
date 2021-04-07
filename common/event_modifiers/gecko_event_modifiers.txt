@@ -47,3 +47,7 @@ hired_conquistador = {
 jihad = {
 	monthly_piety = -0.08333	
 }
+
+mesopotamian_marshes_drained = {
+	local_development_cost = -0.30
+}
