@@ -1195,7 +1195,6 @@ gulf_of_aden={
 		386 391 4282 #asir_area
 		389 2343 4283 #hadramut_area
 		1328 1329 1330 4333 #Red Sea Area
-		385 2331 2332 4277 4278 #mecca_area #smeev
 		4346
 	}
 }
@@ -1646,6 +1645,7 @@ basra={
 		2334 4276 #Wasteland
 		384 2329 2330 #medina_area #smeev
 		383 2328 4268 4269 2327 #tabuk_area #smeev
+		385 2331 2332 4277 4278 #mecca_area #smeev
 	}
 }
 aleppo={
