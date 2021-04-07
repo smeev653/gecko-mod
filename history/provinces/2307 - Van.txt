@@ -1,7 +1,7 @@
 #2307 - Van
 
-owner = QAR #Zahids
-controller = QAR
+owner = ARM #Zahids
+controller = ARM
 culture = armenian
 religion = coptic
 capital = "Van"
@@ -11,7 +11,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = QAR
 add_core = ARM
 discovered_by = east_african
 discovered_by = western
