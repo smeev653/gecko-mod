@@ -214,9 +214,9 @@ country_decisions = {
 				}
 				effect = {
 					add_piety = -2
-					add_ruler_modifier = {
+					add_country_modifier = {
 					name = "jihad"
-					duration = 10950
+					duration = 3650
 					}
 				}	
 			}
