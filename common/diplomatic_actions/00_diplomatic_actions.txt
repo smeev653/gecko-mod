@@ -135,7 +135,7 @@ royal_marriage = {
 			always = no
 		}
 	}
-
+}
 annexationaction = {
 	condition = {
 		tooltip = ANNEX_TOO_LOW
@@ -298,7 +298,7 @@ warningaction = {
 			always = no
 		}
 	}
-
+}
 
 threaten_war = {
 	condition = {
