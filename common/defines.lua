@@ -785,9 +785,9 @@ NCountry = {
 	REVOLT_TECH_IMPACT = 0.03, 			-- % each tech increases size of rebels by this percent.
 	REVOLT_TECH_MORALE = 0.01,			-- 1% per tech level
 
-	REBEL_ARTILLERY_INCREASE_LEVEL_1_TECH = 11,		-- Tech level at which REBEL_ARTILLERY_INCREASE_LEVEL_1_SIZE is applied
+	REBEL_ARTILLERY_INCREASE_LEVEL_1_TECH = 28,		-- Tech level at which REBEL_ARTILLERY_INCREASE_LEVEL_1_SIZE is applied
 	REBEL_ARTILLERY_INCREASE_LEVEL_1_SIZE = 0.1,	-- The increase in artillery as fraction of total troops given to rebels
-	REBEL_ARTILLERY_INCREASE_LEVEL_2_TECH = 16,		-- Tech level at which REBEL_ARTILLERY_INCREASE_LEVEL_2_SIZE is applied
+	REBEL_ARTILLERY_INCREASE_LEVEL_2_TECH = 30,		-- Tech level at which REBEL_ARTILLERY_INCREASE_LEVEL_2_SIZE is applied
 	REBEL_ARTILLERY_INCREASE_LEVEL_2_SIZE = 0.15,	-- The increase in artillery as fraction of total troops given to rebels (does not stack with level 1)
 
 	MIGRATION_BOOST = 50,							-- How many points given when migrating.
