@@ -13879,6 +13879,7 @@ CRI_ideas = {
 		tag = CRI
 	}
 	free = yes
+	
 	cri_genghisid_legacy = {
 		cavalry_power = 0.2
 	}
@@ -13886,8 +13887,8 @@ CRI_ideas = {
 		global_own_trade_power = 0.25
 		tolerance_heathen = 3
 	}
-	cri_ruthenian_raids = {
-		land_morale = 0.1
+	cri_allow_nogai_protectorates = {
+		global_manpower_modifier = 0.25
 	}
 	cri_despoilers = {
 		leader_land_manuever = 1
@@ -13899,8 +13900,8 @@ CRI_ideas = {
 		build_cost = -0.1
 		manpower_recovery_speed = 0.2
 	}
-	cri_allow_nogai_protectorates = {
-		global_manpower_modifier = 0.25
+	cri_ruthenian_raids = {
+		land_morale = 0.1
 	}
 }
 
