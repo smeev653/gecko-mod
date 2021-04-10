@@ -13870,7 +13870,7 @@ RIG_ideas = {
 CRI_ideas = {
 	start = {
 		trade_efficiency = 0.1
-		leader_land_shock = 1
+		loot_amount = 0.25
 	}
 	bonus = {
 		core_creation = -0.25
