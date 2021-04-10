@@ -273,7 +273,8 @@ edict_of_resistance = {
 
 public_welfare_act = {
 	monarch_power = ADM
-
+	
+	
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -286,7 +287,7 @@ public_welfare_act = {
 	}
 
 	fort_maintenance_modifier = -0.2
-	global_garrison_growth = 0.1
+	defensiveness = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -327,7 +328,7 @@ the_spy_discovery_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	fire_damage_dealt = 0.15
+	fire_damage = 0.15
 
 	ai_will_do = {
 		factor = 0.6 #Keep in mind lower stab cost is probably pretty weak given this costs ADM...
@@ -530,7 +531,7 @@ the_witchcraft_act = {
 		full_idea_group = aristocracy_ideas
 	}
 	
-	cav_power = 0.2
+	cavalry_power = 0.2
 
 	ai_will_do = {
 		factor = 1
