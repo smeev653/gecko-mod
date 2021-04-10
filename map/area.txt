@@ -3,7 +3,6 @@
 #Sea Areas:
 #No restriction on size.
 
-
 western_mediterrenean_area = {
 	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 1307
 }
@@ -753,22 +752,6 @@ sloboda_ukraine_area = { #4
 	291 298 299 2408
 }
 
-yedisan_area = { #3
-	282 1974 2406
-}
-
-zaporizhia_area = { #3
-	283 2411 2412
-}
-
-azov_area = { #4
-	286 287 2413 2414
-}
-
-crimea_area = { #4
-	284 285 2410 2447
-}
-
 white_ruthenia_area = { #3
 	292 771 4246
 }
@@ -827,14 +810,6 @@ beloozero_area = { #3
 	312 4259 4261
 }
 
-astrakhan_area = { #5
-	464 466 468 2416 2417
-}
-
-lower_don_area = { #4
-	288 467 1971 2409
-}
-
 kazan_area = { #3
 	1082 2422 4264
 }
@@ -887,6 +862,47 @@ saratov_area = { #3
 	303 2418 2419
 }
 
+###Crimea Expansion###
+
+crimea_area = { #4
+	284 6001 6002
+}
+
+simferopol_area = { #4
+	285 2410 2447 6000
+}
+
+yedisan_area = { #5
+	1974 6004 6005
+}
+
+zaporizhia_area = { #5
+	283 2411 2412 6008 6007
+}
+odessa_area = { #4
+	282 6006 2406 6003
+}
+
+azov_area = { #5
+	286 287 2413 2414 6009
+}
+
+circassia_area = { #5
+	463 2201 2195 2197 6010
+}
+stavropol_area = { #5
+	6011 6012 2417 6013 2416 
+}
+astrakhan_area = { #5
+	464 466 468 6014 6015
+}
+
+lower_don_area = { #5
+	288 467 1971 2409 6016
+}
+
+
+######################
 ########################################
 # Germany			 				   #
 ########################################
@@ -1160,10 +1176,6 @@ shirvan_area = { #5 #Northern Azerbaijan
 	421 4299 4305 4340
 }
 
-circassia_area = { #4
-	463 2201 2195 2197
-}
-
 dagestan_area = { #5
 	425 2198 2199 2208 4306
 }
@@ -1387,10 +1399,6 @@ cyrenaica_area = { #5
 	356 357 2325 2326 
 }
 
-fezzan_area = { #4
-	2448 2449 2474 4567
-}
-
 tunisia_area = { #5
 	341 2454 2455 2473 4566
 }
@@ -1600,14 +1608,6 @@ kurdufan_area = { #3
 	1216 1221 2800
 }
 
-lower_nubia_area = { #3
-	1234 2322 2323
-}
-
-dongola_area = { #3
-	1220 1228 1229
-}
-
 upper_nubia_area = { #5
 	1222 1226 1225 2797 2798
 }
@@ -1667,6 +1667,32 @@ ajuuran_area = { #4
 
 majarteen_area = { #5
 	1206 2024 2783 2784 2788 
+}
+
+### Gecko Expansion ###
+
+lower_nubia_area = { #3
+	1234 2322 6020 6030
+}
+
+dongola_area = { #5
+	1220 1228 6018 6019 6022
+}
+
+hadendoa_area = { #4
+	6017 2323 6021 1229
+}
+
+fezzan_area = { #5
+	2448 2449 2474 4567 6027
+}
+
+jaghbub_area = { #4
+	6023 6024 6025 6026
+}
+
+namibia_area = { #3
+	6028 1173 6029 1174
 }
 
 ########################################
@@ -1882,7 +1908,7 @@ kongo_area = { #5
 }
 
 angola_namibia_area = { #5
-	1098 1167 1171 1172 1174 
+	1098 1167 1171 1172  
 }
 
 cape_of_good_hope_area = { #5

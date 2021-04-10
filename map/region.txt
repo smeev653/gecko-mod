@@ -262,6 +262,10 @@ crimea_region = {
 		zaporizhia_area
 		yedisan_area
 		azov_area
+		simferopol_area
+		odessa_area
+		#mariupol_area
+		stavropol_area
 	}
 }
 
@@ -305,6 +309,7 @@ egypt_region = {
 		bahari_area
 		vostani_area
 		said_area
+		jaghbub_area
 	}
 }
 
@@ -505,6 +510,7 @@ horn_of_africa_region = {
 		damot_area
 		aussa_area
 		shewa_area
+		hadendoa_area
 	}
 }
 
@@ -570,6 +576,7 @@ kongo_region = {
 		matamba_area
 		lower_kasai
 		kasai_area
+		namibia_area
 	}
 	monsoon = {
 		00.02.01

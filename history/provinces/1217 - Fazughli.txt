@@ -1,8 +1,8 @@
 #1217 - Fazughli
 
-owner = NUB
-controller = NUB
-add_core = NUB
+owner = ALO
+controller = ALO
+add_core = ALO
 is_city = yes
 
 culture = nubian #Shilluk

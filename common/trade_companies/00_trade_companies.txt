@@ -8,7 +8,7 @@ trade_company_west_africa = {
 		1147 2289 2290 2294 #Benin
 		1112 1113 1116 2239 #Jolof
 		1114 1117 2238 #Futa Jalon
-		1167 1171 1172 1174 #Angola
+		1167 1171 1172 #Angola
 	}
 	
 	# Specific
@@ -25,7 +25,8 @@ trade_company_south_africa = {
 	color = { 0 175 0 }
 	
 	provinces = {
-		789 833 1175 1176 1177 1178 1179 1180 1181 1182 1801 1173 1800 2856 2864 2880 4781 4782 4783 4784
+		1460 789 833 1175 1176 1177 1178 1179 1180 1181 1182 1173 1800 2856 2864 2880 4781 4782 4783 4784
+		6029 1174 6028 #aba provinces
 	}
 	
 	# Specific
@@ -664,6 +665,7 @@ trade_company_tunis = {
 		355 339 340 341 350 351 352 353 354 1882 2448 2449 2450 2451 2452 2453 2454 2455 2456 2457 2458 2472 2473 2474 2954 4566 4567
 		344 345 346 347 348 1110 2460 2464 2466 2467 2468 2469 2470 342 343 349 2459 2462 2463 336 337 338 2461 2465 # PR change
 		4564 4562 4568 # PR change
+		6027 #aba #smeev
 	}
 	
 	# Specific
@@ -863,8 +865,8 @@ trade_company_constantinople = {
 trade_company_alexandria = {
 	color = { 200 200 102 }
 	
-	provinces = {
-		1234 2322 2323 #lower_nubia_area
+	provinces={
+		1234 2322 #lower_nubia_area
 		365 2315 2320 2321 #gulf_of_arabia_area
 		1233 2318 4323 #al_wahat_area
 		358 362 363 #delta_area
@@ -875,7 +877,10 @@ trade_company_alexandria = {
 		4321 4322 #Wastelands
 		2324 1232 1230 2787 #red sea coast
 		364 #ghazzah
+		6024 6023 6025 6026 #jaghbub #aba
+		6020 6030 #lower nubia #aba
 	}
+	
 	
 	# Specific
 	# Generic
@@ -908,7 +913,10 @@ trade_company_ethiopia = {
 	color = { 40 46 64 }
 	
 	provinces={
-		774 1217 1218 1222 1228 2756 2757 2758 2759 2760 2761 2762 2763 2772 2791 2797 2766 2767 2769 2770 2771 2779 1224 1213 1223 1214 1216 1221 2800 2801 2802 1229 1225 1226 1227 1220 2798 2799 1219 2932 4033 4158 
+	774 1217 1218 1222 2756 2757 2758 2759 2760 2761 2762 2763 2772 2791 2797 2766 2767 2769 2770 2771 1224 1213 1223 1214 1216 1221 2800 2801 2802 1229 1225 1226 1227 2798 2799 1219 2932 4033 4158
+		2323 6017 6021 #hadendoa #aba
+		1228 1220 #aba
+		6022 6018 6019 #dongola #aba
 	}
 	
 	# Specific
@@ -989,7 +997,7 @@ trade_company_gulf_of_aden = {
 		1210 1208 2778 1207 2779 #ogaden #smeev
 		2781 2776 2780 2785 #ajuuraan #smeev
 	}
-	}
+	
 	
 	# Specific
 	# Generic
@@ -1059,9 +1067,9 @@ trade_company_crimea = {
 	color = { 59 158 125 }
 	
 	provinces = {
-	1323 1322 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412
+		1323 1322 282 1974 2406 286 287 2413 2414 284 285 2410 2447 283 2411 2412 
+		6003 6004 6002 6005 6006 6007 6008 6009 6000 6001 #aba crimea
 	}
-	
 	# Specific
 	# Generic
 	names = {
@@ -1105,6 +1113,7 @@ trade_company_astrakhan = {
 		2421 4265 4267 #volga_area
 		475 1965 1966 2420 2444 #bashkiria_area
 		473 1081 2423 #samara_area	
+		6012 6013 6014 6011 6015 6016 #aba crimea provinces
 	}
 	
 	# Specific
@@ -1190,6 +1199,7 @@ trade_company_caucasus = { #smeev mod
 		425 2198 2199 2208 4306 #dagestan_area
 		421 4299 4305 4340 #shirvan_area
 		419 420 2202 2205 4302 #armenia_area
+		6010
 		
 		
 	}
