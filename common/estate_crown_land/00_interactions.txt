@@ -146,7 +146,7 @@ interaction = {
 interaction = {
     key = summon_the_diet
     random_seed = random
-	cooldown_months = 60
+	cooldown_months = 45
 
     trigger = {
         NOT = { has_any_active_estate_agenda = yes }
