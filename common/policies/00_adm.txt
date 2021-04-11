@@ -1,5 +1,5 @@
 the_combination_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -10,7 +10,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	fire_damage_received = -0.15
+	production_efficiency = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -49,8 +49,7 @@ the_court_of_wards_and_liveries = {
 		full_idea_group = economic_ideas
 	}
 		
-	production_efficiency = 0.15
-	cavalry_cost = -0.15
+	cavalry_cost = -0.2
 		
 	ai_will_do = {
 		factor = 1	
@@ -328,7 +327,7 @@ the_spy_discovery_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	fire_damage = 0.15
+	fire_damage_received = -0.15
 
 	ai_will_do = {
 		factor = 0.6 #Keep in mind lower stab cost is probably pretty weak given this costs ADM...
@@ -492,7 +491,7 @@ land_inheritance_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	infantry_fire = 0.25
+	mercenary_discipline = 0.1
 	
 	ai_will_do = {
 		factor = 1

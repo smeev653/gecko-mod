@@ -248,7 +248,7 @@ modern_siege_weapons = {
 }
 
 superior_fortification_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = innovativeness_ideas
@@ -260,7 +260,8 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	fire_damage_received = -0.15
+	defensiveness = 0.2
+	fort_maintenance_modifier = -0.2
 
 
 	ai_will_do = {
@@ -281,7 +282,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.2
+	infantry_power = 0.15
 
 	ai_will_do = {
 		factor = 1.2		
@@ -301,7 +302,7 @@ modern_firearm_techniques = {
 }
 
 the_garrison_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = innovativeness_ideas
@@ -313,7 +314,7 @@ the_garrison_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	free_leader_pool = 2
+	fire_damage = 0.15
 
 	ai_will_do = {
 		factor = 1
