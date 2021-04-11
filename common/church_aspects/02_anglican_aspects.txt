@@ -57,6 +57,9 @@ gain_consort_aspect = {
 	}
 	effect = {
 		define_heir = {
+			ADM = 1
+			DIP = 1
+			MIL = 1
 			age = 0
 			dynasty = ROOT
 			claim = 100
@@ -136,7 +139,7 @@ dissolve_monasteries_aspect = {
 		}
 	}
 	effect = {
-		add_years_of_income = 0.25
+		add_years_of_income = 0.33
 	}
 	ai_will_do = {
 		factor = 1

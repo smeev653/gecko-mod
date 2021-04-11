@@ -330,7 +330,7 @@ christian = {
 			catholic
 		}
 		country = {
-			land_morale = 0.15
+			land_morale = 0.05
 			innovativeness_gain = 1
 		}
 		
@@ -340,15 +340,15 @@ christian = {
 		
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
 		
-		aspects = {
-			divorce_consort_aspect
-			gain_consort_aspect
-			dissolve_monasteries_aspect
-			monopoly_aspect
-			stability_aspect
-		}
-		aspects_name = ANGLICAN_ASPECTS
-		
+		#aspects = {
+		#	divorce_consort_aspect
+		#	gain_consort_aspect
+		#	dissolve_monasteries_aspect
+		#	monopoly_aspect
+		#	stability_aspect
+		#}
+		#aspects_name = ANGLICAN_ASPECTS
+		fervor = yes
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 		
 		date = 1534.11.3 # act of supremacy
@@ -542,7 +542,7 @@ christian = {
 		}
 		country = {
 			tolerance_heretic = 2
-			advisor_pool = 1
+			advisor_cost = -0.1
 		}
 		
 		country_as_secondary = {
