@@ -719,7 +719,7 @@ quality_ideas = {
 		ship_durability = 0.05
 	}
 	naval_drill = {
-		naval_morale = 0.10
+		drill_decay_modifier = -0.2
 	}
 	copper_bottoms = {
 		naval_attrition = -0.25
