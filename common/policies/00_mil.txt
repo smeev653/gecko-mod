@@ -282,7 +282,8 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.15
+	infantry_power = 0.10
+	yearly_army_professionalism = 0.002
 
 	ai_will_do = {
 		factor = 1.2		
@@ -359,7 +360,7 @@ field_priests = {
 		full_idea_group = quantity_ideas
 	}
 
-	land_morale = 0.1
+	land_morale = 0.05
 	recover_army_morale_speed = 0.05
 	
 	ai_will_do = {
