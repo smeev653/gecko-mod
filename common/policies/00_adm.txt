@@ -272,7 +272,7 @@ edict_of_resistance = {
 }
 
 public_welfare_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	
 
@@ -286,7 +286,7 @@ public_welfare_act = {
 		full_idea_group = economic_ideas
 	}
 
-	fort_maintenance_modifier = -0.2
+	infantry_fire = 0.25
 	defensiveness = 0.2
 	
 	ai_will_do = {
