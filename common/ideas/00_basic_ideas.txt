@@ -196,7 +196,7 @@ spy_ideas = {
 	}	
 	state_propaganda = {
 		ae_impact = -0.2
-		curia_powers_cost = -0.5
+		curia_powers_cost = -0.35
 	}
 	vetting = {
 		trade_steering = 0.33
