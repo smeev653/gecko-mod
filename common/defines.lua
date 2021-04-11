@@ -113,7 +113,7 @@ NDiplomacy = {
 	AMOUNT_OF_ACTIVE_CARDINALS = 7, 				-- Number of active Cardinals
 	AMOUNT_OF_FUTURE_CARDINALS = 5, 				-- Number of future Cardinals
 	EXCOMMUNICATE_ACTION_MONTHS = 36, 				-- Excommunication "cooldown" (months)
-	CRUSADE_TIMEOUT_YEARS = 15 					-- Crusade timeout (years)
+	CRUSADE_TIMEOUT_YEARS = 15, 					-- Crusade timeout (years)
 	WE_IMPACT_ON_ANNEX_INTEGRATE = -0.05,			-- multiplied with current WE
 	EMPEROR_VOTE_DAYS = 60,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
 	EMPEROR_REVOKE_AUTHORITY_COST = 50.0,			-- Cost for the emperor to revoke a reform
@@ -2032,7 +2032,7 @@ NReligion = {
 	KARMA_FOR_CONVERSION = 0.1,
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
-	MAX_CARDINALS_PER_COUNTRY = 10							-- Max cardinals in a single country
+	MAX_CARDINALS_PER_COUNTRY = 10,							-- Max cardinals in a single country
 
 	YEARLY_PAPAL_INFLUENCE_CATHOLIC = 0.5,						-- The amount of yearly papal influence you receive each year for being catholic
 	YEARLY_PAPAL_INFLUENCE_PER_CARDINAL = 0.5,					-- The amount of yearly papal influence you receive each year for each cardinal you have active
