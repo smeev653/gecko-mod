@@ -322,7 +322,6 @@ christian = {
 
 	anglican = {
 		declare_war_in_regency = yes
-		cb_on_religious_enemies = yes
 		
 		color = { 135 77 255 }
 		icon = 28
@@ -331,7 +330,7 @@ christian = {
 			catholic
 		}
 		country = {
-			land_morale = 0.10
+			land_morale = 0.15
 			innovativeness_gain = 1
 		}
 		
