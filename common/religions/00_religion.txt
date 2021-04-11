@@ -338,7 +338,7 @@ christian = {
 			idea_cost = -0.1
 		}
 		
-		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		#uses_anglican_power = yes				# Uses church power/aspect mechanics
 		
 		#aspects = {
 		#	divorce_consort_aspect
