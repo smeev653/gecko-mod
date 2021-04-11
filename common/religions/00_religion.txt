@@ -282,10 +282,13 @@ christian = {
 				}
 				allow = {
 					NOT = { war_with = PAP }
-					NOT = { mercantilism = 100 }
+					NOT = { has_country_modifier = commercial_monopoly }
 				}
 				effect = {
-					add_mercantilism = 1
+					add_country_modifier = {
+						name = "commercial_monopoly"
+						duration = 7300
+					}
 				}
 				ai_will_do = {
 					factor = 1
