@@ -13,3 +13,7 @@
  estate_cossacks_prime_herding_rights_effect_tooltip:0 "§G+25%§! manpower from all Steppe provinces\n§R-20%§! tax income from all Steppe provinces"
  enlist_rajputs:0 "Rajputs Enlisted"
  jihad:0 "Religious Fervour"
+ over_merc_cap_early_minor:0 "Overreliance on Mercenaries" 
+ over_merc_cap_early:0 "Overreliance on Mercenaries" 
+ over_merc_cap_mid:0 "Overreliance on Mercenaries" 
+ over_merc_cap_late:0 "Overreliance on Mercenaries" 
