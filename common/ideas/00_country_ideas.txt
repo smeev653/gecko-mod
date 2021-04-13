@@ -2831,14 +2831,15 @@ PAP_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	holy_father = {
-		ae_impact = -0.10
+	birthplace_of_the_renaissance = {
+		idea_cost = -0.05
+		technology_cost = -0.05
 	}
 	papal_investiture_and_tithes = {
 		global_tax_modifier = 0.2
 	}
-	ecclesiastical_primacy = {
-		tolerance_own = 2
+	porto_franco = {
+		trade_efficiency = 0.15
 	}
 	glory_of_rome = {
 		infantry_power = 0.10
