@@ -1,22 +1,19 @@
-# 2986 - Cagliari
+# 4725 - Arborea
 
-latent_trade_goods = {
-	coal
-}
-
-owner = SAR
-controller = SAR
+owner = GEN
+controller = GEN
 culture = sardinian 
 religion = catholic 
-hre = no 
-base_tax = 3
-base_production = 3
-trade_goods = copper
-base_manpower = 1
-capital = "Cagliari" 
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Arborea" 
 is_city = yes # Estimated 
 add_core = SAR
-center_of_trade = 1
+add_core = GEN
+
 
 
 discovered_by = western
@@ -25,6 +22,7 @@ discovered_by = muslim
 discovered_by = ottoman
 
 
+#1420.1.1 = { owner = ARA add_core = ARA controller = ARA } # Conquered by Aragon
 1516.1.23 = {	owner = SPA
 	controller = SPA
 	add_core = SPA
