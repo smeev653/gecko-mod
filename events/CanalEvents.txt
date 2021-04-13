@@ -1051,7 +1051,7 @@ province_event = {
 
 	option = {
 		name = "canal_events.25.a"
-		owner = { add_prestige = 20 }
+		owner = { add_prestige = 10 }
 	}
 }
 

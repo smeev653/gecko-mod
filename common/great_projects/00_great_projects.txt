@@ -16,7 +16,7 @@ suez_canal = {
 	time = 1
 	
 	modifier = {
-		province_trade_power_value = 20
+
 	}
 }
 
