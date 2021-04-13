@@ -119,7 +119,7 @@ age_of_discovery = {
 		
 		ab_justified_wars = {
 			modifier = {
-				ae_impact = -0.1
+				ae_impact = -0.2
 			}
 			ai_will_do = {
 				factor = 10
@@ -150,7 +150,7 @@ age_of_discovery = {
 
 		ab_cavalry_armies = {
 			modifier = {
-				cavalry_cost = -0.2
+				cavalry_cost = -0.15
 			}
 			ai_will_do = {
 				factor = 10
@@ -274,7 +274,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 5
+			colony = 1
 		}
 		
 		obj_force_converted = {
