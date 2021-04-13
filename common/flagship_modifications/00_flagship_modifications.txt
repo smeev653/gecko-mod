@@ -36,37 +36,37 @@ mass_load_cannons = {
     }
 }
 
-trade_route_map = {
-    trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = POR
-                    tag = BRZ
-                }
-            }
-            normal_or_historical_nations = no
-        }
-    }
-	modifier = {
-        trade_power_in_fleet_modifier = 1
-        naval_maintenance_flagship_modifier = 0.25
-	}
-    ai_trade_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            has_reform = pirate_republic_reform
-        }
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            has_reform = pirate_republic_reform
-        }
-    }
-}
+#trade_route_map = {
+#    trigger = {
+#        OR = {
+#            NOT = {
+#                OR = {
+#                    tag = POR
+#                    tag = BRZ
+#                }
+#            }
+#            normal_or_historical_nations = no
+#        }
+#    }
+#	modifier = {
+#        trade_power_in_fleet_modifier = 1
+#        naval_maintenance_flagship_modifier = 0.25
+#	}
+#    ai_trade_score = {
+#        factor = 1
+#        modifier = {
+#            factor = 10
+#            has_reform = pirate_republic_reform
+#        }
+#    }
+#    ai_war_score = {
+#        factor = 1
+#        modifier = {
+#            factor = 10
+#            has_reform = pirate_republic_reform
+#        }
+#    }
+#}
 
 command_aftercastle = {
     trigger = {
