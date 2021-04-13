@@ -56,3 +56,13 @@ mesopotamian_marshes_drained = {
 commercial_monopoly = {
 	production_efficiency = 0.1
 }
+
+pap_indulgences = {
+	global_tax_income = 12
+}
+pap_simony = {
+	global_tax_income = 12
+}
+pap_veneration_relics = {
+	global_tax_income = 12
+}
