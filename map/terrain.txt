@@ -297,6 +297,7 @@ categories =  {
 			128 1769 4751 #Austria
 			4766 4767 4768 4770 4786
 			254 #poznan #smeev
+			135 #sopron #smeev 
 		}
 	}
 	

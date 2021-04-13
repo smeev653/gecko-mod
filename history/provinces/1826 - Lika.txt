@@ -23,7 +23,7 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 add_core = DAL
-
+fort_15th = yes
 
 1526.8.30 = {
 	owner = HAB

@@ -1126,7 +1126,7 @@ POL_ideas = {
 	}
 	winged_hussars = {
 		cavalry_power = 0.33
-		cossacks_loyalty_modifier = 0.2
+		cossacks_loyalty_modifier = 0.1
 	}
 	wojsko_komputoe = {
 		global_regiment_cost = -0.10
