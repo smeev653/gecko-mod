@@ -63,3 +63,58 @@ empowered_subjects = {
 	loot_amount = 0.25
 }
 	
+over_merc_cap_early = {
+	potential = {
+		was_player = yes
+		current_age = age_of_discovery
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 6
+		num_of_loans = 10
+		NOT = { manpower_percentage = 0.1 }
+		
+	}
+	mercenary_discipline = -0.25
+	land_morale = -0.5
+}
+
+over_merc_cap_mid = {
+	potential = {
+		was_player = yes
+		current_age = age_of_reformation
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 7
+		num_of_loans = 10
+		NOT = { manpower_percentage = 0.1 }
+	}
+	mercenary_discipline = -0.25
+	land_morale = -0.5
+}
+
+over_merc_cap_late = {
+	potential = {
+		was_player = yes
+		current_age = age_of_reformation
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 8
+		num_of_loans = 10
+		NOT = { manpower_percentage = 0.1 }
+	}
+	mercenary_discipline = -0.25
+	land_morale = -0.5
+}
+
+resist_crusade = {
+	potential = {
+			was_player = yes
+			is_crusade_target = yes
+		}
+	trigger = {
+		is_crusade_target = yes
+	}
+	manpower_recovery_speed = 0.3
+	land_morale = 0.05
+	defensiveness = 0.1
+}
