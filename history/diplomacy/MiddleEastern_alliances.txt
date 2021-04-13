@@ -1,11 +1,11 @@
 #gecko
 
-vassal = {
-	first = ARL
-	second = ARD
-	start_date = 1444.1.1
-	end_date = 1477.1.5
-}	
+#vassal = {
+#	first = ARL
+#	second = ARD
+#	start_date = 1444.1.1
+#	end_date = 1477.1.5
+#}	
 
 #Shah Rokhs Empire
 
@@ -279,19 +279,19 @@ vassal = {
 } 
 
 # Cyprus, a Mamluk tributary
-guarantee = {
-	first = MAM
-	second = CYP
-	start_date = 1444.1.1
-	end_date = 1489.1.1
-}
+#guarantee = {
+#	first = MAM
+#	second = CYP
+#	start_date = 1444.1.1
+#	end_date = 1489.1.1
+#}
 
-vassal = { #Viceroy of the Hejaz
-	first = MAM
-	second = HED
-	start_date = 1444.1.1
-	end_date = 1517.1.1
-}
+#vassal = { #Viceroy of the Hejaz
+#	first = MAM
+#	second = HED
+#	start_date = 1444.1.1
+#	end_date = 1517.1.1
+#}
 
 vassal = { #Mamluks fall
 	first = TUR
