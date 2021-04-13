@@ -1125,8 +1125,8 @@ POL_ideas = {
 		war_exhaustion = -0.02
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
-		cav_to_inf_ratio = 0.10
+		cavalry_power = 0.25
+		leader_land_manuever = 1
 	}
 	wojsko_komputoe = {
 		global_regiment_cost = -0.10
