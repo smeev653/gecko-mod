@@ -1594,44 +1594,6 @@ basra={
 		385 2331 2332 4277 4278 #mecca_area #smeev
 	}
 }
-constantinople={
-	location=1320
-	color={
-		126 203 120 
-	}
-	outgoing={
-		name="ragusa"
-		path={
-			149 1765 1766 138 137 
-		}
-		control={
-		3254.000000 1343.500000	
-		}
-	}
-	outgoing={
-		name="alexandria"
-		path={
-			362 363 1316 1932 318 317 1320 
-		}
-		control={
-			 3216.000000 1325.000000 3203.000000 1315.000000 3203.000000 1286.000000 3236.000000 1243.000000 3266.000000 1216.000000 3275.000000 1197.000000 3272.000000 1172.000000 
-		}
-	}
-
-	members={
-		1320 325 328 2299 2304 
-		329 1846 2300 4314 4315 #rum_area
-		316 317 2296 #hudavendigar_area
-		322 1848 4308 4311 #germiyan_area
-		318 319 2297 2298 4309 #aydin_area
-		326 4312 4313 #ankara_area
-		321 327 2302 #cukurova_area #smeev
-		323 324 2301 4307 #karaman_area #smeev
-		332 2303 4310 #dulkadir_area #smeev
-		331 2305 330 #erzurum #smeev
-		418 2306 2307 4295 4296 #north_kurdistan_area
-		}
-}
 
 basra={
 	location=1335
@@ -1681,6 +1643,45 @@ basra={
 		383 2328 4268 4269 2327 #tabuk_area #smeev
 		385 2331 2332 4277 4278 #mecca_area #smeev
 	}
+}
+
+constantinople={
+	location=1320
+	color={
+		126 203 120 
+	}
+	outgoing={
+		name="ragusa"
+		path={
+			149 1765 1766 138 137 
+		}
+		control={
+		3254.000000 1343.500000	
+		}
+	}
+	outgoing={
+		name="alexandria"
+		path={
+			362 363 1316 1932 318 317 1320 
+		}
+		control={
+			 3216.000000 1325.000000 3203.000000 1315.000000 3203.000000 1286.000000 3236.000000 1243.000000 3266.000000 1216.000000 3275.000000 1197.000000 3272.000000 1172.000000 
+		}
+	}
+
+	members={
+		1320 325 328 2299 2304 
+		329 1846 2300 4314 4315 #rum_area
+		316 317 2296 #hudavendigar_area
+		322 1848 4308 4311 #germiyan_area
+		318 319 2297 2298 4309 #aydin_area
+		326 4312 4313 #ankara_area
+		321 327 2302 #cukurova_area #smeev
+		323 324 2301 4307 #karaman_area #smeev
+		332 2303 4310 #dulkadir_area #smeev
+		331 2305 330 #erzurum #smeev
+		418 2306 2307 4295 4296 #north_kurdistan_area
+		}
 }
 aleppo={
 	location=377
