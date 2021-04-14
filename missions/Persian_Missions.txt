@@ -88,26 +88,16 @@ per_western_branch = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			kartli_kakheti_area = { #Must still have this
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			samtskhe_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			imereti_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			shirvan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			armenia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value =  10
+				OR = {
+					area = kartli_kakheti_area
+					area = samtskhe_area
+					area = imereti_area
+					area = shirvan_area
+					area = armenia_area
+				}
+			}	
 		}
 		effect = {
 			kartli_kakheti_area = {
@@ -161,6 +151,13 @@ per_western_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+			dagestan_area  = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
 		}	
 	}
 	
