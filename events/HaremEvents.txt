@@ -15,7 +15,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rights of Man"
 		has_reform = ottoman_government
-		ruler_age = 30
+		ruler_age = 20
 		has_heir = no
 		has_government_attribute = heir
 	}
@@ -115,7 +115,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 3
 	}
 
 	option = {
@@ -139,7 +139,7 @@ country_event = {
 			male = yes
 			ADM = 1
 			max_random_dip = 5
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -163,7 +163,7 @@ country_event = {
 			male = yes
 			MIL = 1
 			max_random_dip = 5
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -187,7 +187,7 @@ country_event = {
 			male = yes
 			ADM = 1
 			max_random_mil = 5
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -211,7 +211,7 @@ country_event = {
 			male = yes
 			MIL = 1
 			max_random_adm = 5
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -235,7 +235,7 @@ country_event = {
 			male = yes
 			DIP = 1
 			max_random_mil = 5
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -257,7 +257,7 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -281,7 +281,7 @@ country_event = {
 			male = yes
 			DIP = 1
 			max_random_adm = 5
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -300,7 +300,7 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -325,7 +325,7 @@ country_event = {
 			DIP = 1
 			MIL = 1
 			ADM = 1
-			age = 10
+			age = 15
 		}
 	}
 	option = {	 
@@ -347,7 +347,7 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			age = 10
+			age = 15
 		}
 	}
 	option = {
@@ -366,11 +366,41 @@ country_event = {
 		define_heir = {
 			dynasty = original_dynasty
 			male = yes
-			age = 10
+			age = 15``
 			ADM = 1
 			DIP = 1
 			MIL = 1
 		}
+	}
+}
+
+# Kiliç alayi
+country_event = {
+	id = harem_events.2
+	title = harem_events.2.t
+	desc = harem_events.2.d
+	picture = SWORD_OF_OSMAN_eventPicture
+	
+	trigger = { has_dlc = "Rights of Man" }
+	
+	immediate = {
+		hidden_effect = {
+			define_ruler = {
+				dynasty = original_dynasty
+				male = yes
+				age = 25
+				adm = 1
+				mil = 1
+				dip = 1
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = harem_events.2.a
+		custom_tooltip = harem_events.2.a.tt
 	}
 }
 

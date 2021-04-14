@@ -278,7 +278,6 @@ country_event = {
 				has_saved_event_target = noble_province
 			}
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -288,7 +287,6 @@ country_event = {
 		}
 		else = {
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -368,7 +366,6 @@ country_event = {
 			}
 			ROOT = { 
 				define_heir = { 
-					ADM = 1
 					DIP = 1
 					MIL = 1
 					dynasty = PREV 
@@ -431,7 +428,6 @@ country_event = {
 				has_saved_event_target = burgher_province
 			}
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -441,7 +437,6 @@ country_event = {
 		}
 		else = {
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -502,7 +497,6 @@ country_event = {
 			}
 			define_heir = {
 				age = 35
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				hidden = no
@@ -511,7 +505,6 @@ country_event = {
 		}
 		else = {
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -584,7 +577,6 @@ country_event = {
 				has_saved_event_target = church_province
 			}
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -594,7 +586,6 @@ country_event = {
 		}
 		else = {
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -645,7 +636,6 @@ country_event = {
 				has_saved_event_target = papal_protoge_country
 			}
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -655,7 +645,6 @@ country_event = {
 		}
 		else = {
 			define_heir = {
-				ADM = 1
 				DIP = 1
 				MIL = 1
 				age = 35
@@ -692,7 +681,6 @@ country_event = {
 			}
 		}		
 		define_heir = {
-			ADM = 1
 			DIP = 1
 			MIL = 1
 			age = 35
@@ -732,7 +720,6 @@ country_event = {
 			}
 		}
 		define_heir = {
-			ADM = 1
 			DIP = 1
 			MIL = 1
 			age = 35
@@ -756,7 +743,6 @@ country_event = {
 			has_country_flag = KOL_secondogeniture_of_BAV
 		}
 		define_heir = {
-			ADM = 1
 			DIP = 1
 			MIL = 1
 			age = 35
