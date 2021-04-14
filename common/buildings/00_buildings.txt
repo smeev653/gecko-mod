@@ -50,7 +50,7 @@ workshop = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -62,7 +62,7 @@ temple = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 2
 	}
 }
 
@@ -97,7 +97,7 @@ barracks = {
 #	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 1.5
 	}
 }
 
@@ -617,7 +617,7 @@ regimental_camp = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 215 # Little above build cost
+			factor = 1 # Little above build cost
 			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -2159,7 +2159,7 @@ wharf = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1750
+		factor = 500
 
 		modifier = {
 			factor = 0.4
@@ -2196,7 +2196,7 @@ weapons = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1
+		factor = 1750
 	}
 }
 
@@ -2210,7 +2210,7 @@ textile = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1
+		factor = 1750
 	}
 }
 
@@ -2226,7 +2226,7 @@ plantations = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1
+		factor = 1750
 	}
 }
 
@@ -2241,7 +2241,7 @@ tradecompany = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1
+		factor = 1750
 	}
 }
 
@@ -2254,7 +2254,7 @@ farm_estate = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1
+		factor = 1750
 	}
 }
 
