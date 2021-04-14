@@ -1235,7 +1235,7 @@ emp_pap_slot_4 = {
 #		tag = PAP
 #	}
 #	has_country_shield = yes
-	
+#	
 #	emp_pap_support_eastern_catholiczation = {
 #		icon = eastern_catholicization
 #		required_missions = {  }
@@ -1384,7 +1384,7 @@ emp_pap_slot_4 = {
 #			}
 #		}
 #	}
-	
+#	
 #	emp_pap_start_the_counter_reformation = {
 #		icon = counter_reformation
 #		required_missions = {  }
@@ -1619,5 +1619,5 @@ emp_pap_slot_4 = {
 #			}
 #		}
 #	}
-}
+#}
 	

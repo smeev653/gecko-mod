@@ -536,7 +536,7 @@ cb_revolutionary = {
 		is_neighbor_of = FROM
 		cb_on_government_enemies = yes
 		NOT = {
-			has_reform = papacy_reform
+			has_reform = pope_reform
 			has_reform = steppe_horde
 			has_reform = dutch_republic
 			has_reform = celestial_empire
@@ -549,7 +549,7 @@ cb_revolutionary = {
 		}
 		FROM = {
 			NOT = {
-				has_reform = papacy_reform
+				has_reform = pope_reform
 				has_reform = steppe_horde
 				has_reform = dutch_republic
 				has_reform = celestial_empire

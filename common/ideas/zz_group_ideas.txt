@@ -1447,7 +1447,7 @@ caucasus_ideas = {
 	
 	trigger = {
 		OR = {
-			culture_group = caucasian
+			#culture_group = caucasian
 			primary_culture = azerbaijani
 		}
 	}

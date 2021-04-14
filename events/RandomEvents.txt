@@ -5558,7 +5558,7 @@ country_event = {
 
 	trigger = {
 		religion = catholic
-		NOT = { has_reform = papacy_reform }
+		NOT = { has_reform = pope_reform }
 	}
 
 	mean_time_to_happen = {

@@ -397,7 +397,7 @@ economic_ideas = {
 	}
 
 	bureaucracy = {
-		global_tax_modifier = 0.2
+		global_tax_modifier = 0.15
 	}
 	organised_construction = {
 		build_cost = -0.1
@@ -412,7 +412,7 @@ economic_ideas = {
 		global_autonomy = -0.05
 	}
 	nationalistic_enthusiasm = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1
 	}
 	smithian_economics = {
 		production_efficiency = 0.15

@@ -2143,6 +2143,8 @@ west_slavic = {
 	}
 }
 
+
+
 #carpathian = {	
 #	graphical_culture = easterngfx
 #	slovak = {
