@@ -16,4 +16,6 @@
  over_merc_cap_early_minor:0 "Overreliance on Mercenaries" 
  over_merc_cap_early:0 "Overreliance on Mercenaries" 
  over_merc_cap_mid:0 "Overreliance on Mercenaries" 
- over_merc_cap_late:0 "Overreliance on Mercenaries" 
+ over_merc_cap_late:0 "Overreliance on Mercenaries"
+ over_merc_cap_early_pluto:0 "Overreliance on Mercenaries - Pluto"
+ over_merc_cap_mid_pluto:0 "Overreliance on Mercenaries - Pluto"   
