@@ -82,7 +82,7 @@ NDiplomacy = {
 	PEACE_IMPACT_DIP_SCORE = 0.25,
 	PEACE_IMPACT_MIL_SCORE = 0.25,
 
-	AUTONOMY_WARSCORE_COST_MODIFIER = 0.50,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
+	AUTONOMY_WARSCORE_COST_MODIFIER = 0.40,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 
 
 	NUM_POSSIBLE_RIVALS = 3,
@@ -1197,7 +1197,7 @@ NMilitary = {
 	CANNOT_RETREAT_DAYS = 12, 						-- How many days combat has to last before one side can retreat
 	DAYS_PER_PHASE = 3,								-- How many days each fire and shock phase lasts
 	DAYS_PER_SIEGE_PHASE = 30,						-- How many days each siege phase lasts
-	COMBAT_DICE_SIDE = 8,							-- How many sides the dice used in combat has
+	COMBAT_DICE_SIDE = 6,							-- How many sides the dice used in combat has
 	BLOCKADE_FACTOR = 3,								-- (Total sail speed / blockade_factor) * blockade_efficiency / province development
 	REBEL_RELOCATION_TIME = 2.0,						-- How long time it takes for rebels to relocate from island
 	REBEL_RELOCATION_DISTANCE_MAX = 200,					-- The maximum distance rebels will relocate to.

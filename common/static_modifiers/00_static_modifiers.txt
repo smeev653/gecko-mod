@@ -482,6 +482,7 @@ active_missionary = {
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
 	local_unrest = -5
+	local_manpower_modifier = 0.5
 }
 
 
@@ -501,7 +502,7 @@ left_trade_company = {
 
 
 scorched_earth = {
-	local_hostile_movement_speed = -0.50
+	local_hostile_movement_speed = -0.25
 }
 
 ##########################################################################
@@ -513,8 +514,8 @@ base_values = {
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
-	army_tradition_decay = 0.06				#lose 5% yearly
-	navy_tradition_decay = 0.06				#lose 5% yearly
+	army_tradition_decay = 0.05				#lose 5% yearly
+	navy_tradition_decay = 0.05				#lose 5% yearly
 	prestige_decay = 0.05					#lose 5% prestige each year
 	tolerance_own = 3
 	diplomatic_upkeep = 4
@@ -662,6 +663,8 @@ bankruptcy = {
 
 war = {
 	rr_girondists_influence = 0.15
+	interest = -0.25
+	yearly_army_professionalism = 0.00125
 }
 
 peace = {
@@ -694,6 +697,7 @@ war_exhaustion = {
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
 	global_trade_goods_size_modifier = -0.02
+	defensiveness = -0.025
 }
 
 doom = {
@@ -741,6 +745,7 @@ army_tradition = {
 	nobles_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
+	yearly_army_professionalism = 0.01
 }
 
 navy_tradition = {
@@ -1233,7 +1238,7 @@ primitive_nation = {
 
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
-	army_tradition = 1
+	army_tradition = 0.5
 }
 
 gov_rank_1 = {
