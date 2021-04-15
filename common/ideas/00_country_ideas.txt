@@ -2819,7 +2819,8 @@ GRA_ideas = {
 PAP_ideas = {
 	start = {
 		development_cost = -0.1
-		religious_unity = 0.25
+		global_unrest = -2
+		
 	}
 
 	bonus = {
