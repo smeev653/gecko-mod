@@ -82,18 +82,18 @@ NDiplomacy = {
 	PEACE_IMPACT_DIP_SCORE = 0.25,
 	PEACE_IMPACT_MIL_SCORE = 0.25,
 
-	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
+	AUTONOMY_WARSCORE_COST_MODIFIER = 0.50,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 
 
 	NUM_POSSIBLE_RIVALS = 3,
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
 	SPY_NETWORK_DISTANCE_EFFECT = 0.1,			-- Mutiplied by distance between capitals to get penalty
-	OVEREXTENSION_THRESHOLD = 1.0,				-- at which threshold you can get events
+	OVEREXTENSION_THRESHOLD = 1.5,				-- at which threshold you can get events
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
 	RIVAL_PEACE_COST_REDUCTION = -0.33,
-	MAX_PEACE_TREATY_COST = 200,					-- in diplo power
+	MAX_PEACE_TREATY_COST = 50,					-- in diplo power
 	DESIRED_NUM_OF_ELECTORS = 7,
 	MAX_NUM_OF_ELECTORS = 8,						-- Maximum number of electors in the interface
 	MAX_FREE_CITIES = 12,
@@ -121,10 +121,10 @@ NDiplomacy = {
 	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
 	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	WARNING_YEARS = 20,								-- Years before warning expire
-	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
-	COALITION_YEARS = 20,							-- Years before coalition expire
+	ANNUL_TREATIES_YEARS = 20,						-- Years before annul treaties expire
+	COALITION_YEARS = 5,							-- Years before coalition expire
 	GUARANTEE_YEARS = 20,							-- Years before guarantee expire
-	REVANCHISM_MONTHLY_DECAY = 0.833,			-- about 20 years to decay all of it.
+	REVANCHISM_MONTHLY_DECAY = 0.4165,			-- about 20 years to decay all of it.
 	MONARCH_GOV_CHANGE_LEGITIMACY_PENALTY = 0.0,	-- Penalty(%) on the legitimacy when changing gov type to the monarchy
 	BASE_SPY_DISCOVERY_CHANCE = 0.25,
 	JUSTIFY_TRADE_CONFLICT_LIMIT = 0.2,			-- How big share of the trade power needed on the target to be able to justify a trade conflict
@@ -154,8 +154,8 @@ NDiplomacy = {
 	BUILD_SPY_DISCOVERED_PENALTY = -10.0,
 	BUILD_SPY_NETWORK_SPEED = 1.5,
 	SPY_NETWORK_DECAY = 1,
-	SPY_NETWORK_SIEGE_EFFECT = 0.2,
-	SPY_NETWORK_AE_EFFECT = -0.1,
+	SPY_NETWORK_SIEGE_EFFECT = 0.33,
+	SPY_NETWORK_AE_EFFECT = -0.2,
 	SPY_NETWORK_TECH_EFFECT = -0.05,
 	SPY_NETWORK_TECH_EFFECT_MAX = -0.3,
 	DETECTED_SPY_NETWORK_DAMAGE_MIN = 10,
@@ -278,7 +278,7 @@ NDiplomacy = {
 	MAX_PEACE_TREATY_PRESTIGE = 100,
 	MAX_PEACE_TREATY_AE = 50,
 
-	PEACE_COST_DEMAND_NON_OCCUPIED_PROVINCE_MULT = 1.1,
+	PEACE_COST_DEMAND_NON_OCCUPIED_PROVINCE_MULT = 1,
 	PEACE_COST_DEMAND_CAPITAL_MULT = 1.2,
 
 	PO_TRADE_POWER_AMOUNT = 0.5,						-- Transfer 50% of trade power on peace option
@@ -293,14 +293,14 @@ NDiplomacy = {
 
 	ANNEX_DIP_COST_PER_DEVELOPMENT = 6,			-- per development
 
-	DEFENDER_AE_MULT = 0.75, 					-- _DDEF_DEFENDER_AE_MULT_ (Infamy multiplied by this for defenders in peace treaties, unless the CB is "mutual" )
+	DEFENDER_AE_MULT = 0.5, 					-- _DDEF_DEFENDER_AE_MULT_ (Infamy multiplied by this for defenders in peace treaties, unless the CB is "mutual" )
 	PO_REVOKE_REFORM_PRESTIGE = 10, 				-- _DDEF_PO_REVOKE_REFORM_PRESTIGE_
 	PO_REVOKE_REFORM_PEACE_COST = 100, 				-- _DDEF_PO_REVOKE_REFORM_PEACE_COST_
 
 	DIP_PORT_FEES = 0.1,							-- DIP_PORT_FEES
 	IMPROVE_RELATION_MAX = 25,						-- IMPROVE_RELATION_MAX
 	IMPROVE_RELATION_SPEED = 1,						-- IMPROVE_RELATION_SPEED
-	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 2,
+	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 1,
 	WARGOAL_PEACE_FRACTION = 0.66,					-- Fraction of warscore you need for wargoal
 	CLAIM_PEACE_COST_DIP_FRACTION = -0.1,			-- Fraction of dipcost you pay for claims
 	CORE_PEACE_COST_DIP_FRACTION = -0.2,			-- Fraction of dipcost you pay for cores
@@ -314,7 +314,7 @@ NDiplomacy = {
 	ELECTIVE_VICTORY_PRESTIGE = 25,				-- Prestige for getting a heir from your country onto the throne of an elective nation
 	ELECTIVE_VICTORY_LEGITIMACY = 10,				-- Legitimacy for getting a heir from your country onto the throne of an elective nation
 
-	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
+	INTEGRATE_UNION_MIN_YEARS = 20,					-- Number of years before a union can be integrated
 	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
 
 	MONTHS_BEFORE_TOTAL_OCCUPATION = 12,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
@@ -442,7 +442,7 @@ NCountry = {
 	GOLDEN_ERA_YEARS = 50,
 	SPLENDOR_ABILITY_COST = 800,
 	PROSPERITY_MONTHLY_DECLINE = -2,				-- monthly tick
-	PROSPERITY_INCREASE_SIZE= 1,				-- if diceroll of d20< monarch stat, while possible ot increase
+	PROSPERITY_INCREASE_SIZE= 2,				-- if diceroll of d20< monarch stat, while possible ot increase
 	CORRUPTION_FROM_BANNERS = 5,
 
 
@@ -452,7 +452,7 @@ NCountry = {
 	ELECTIVE_LOCAL_MONARCH_MAX_BONUS = 1,		-- The maximum change that is applied to non-foreign heirs in elective monarchy
 	ELECTIVE_FOREIGN_MONARCH_MIN_BONUS = 0,		-- The minimum change that is applied to foreigns heirs in elective monarchy
 	ELECTIVE_FOREIGN_MONARCH_MAX_BONUS = 0,		-- The maximum change that is applied to foreigns heirs in elective monarchy
-	ABDICATE_LEGITIMACY_THRESHOLD = 20,
+	ABDICATE_LEGITIMACY_THRESHOLD = 0,
 	ABDICATE_AGE_THRESHOLD = 30,
 	ABDICATE_RULING_LENGTH_THRESHOLD = 10,
 	ABDICATE_LEGITIMACY_HIT = 0,
@@ -464,8 +464,8 @@ NCountry = {
 	
 	NEW_HEIR_PRESTIGE_HIT = -20,
 	NEW_HEIR_PRESTIGE_THRESHOLD = 0,
-	NEW_HEIR_LEGITIMACY_HIT = -20,
-	NEW_HEIR_LEGITIMACY_THRESHOLD = 90,
+	NEW_HEIR_LEGITIMACY_HIT = -10,
+	NEW_HEIR_LEGITIMACY_THRESHOLD = 50,
 	NEW_HEIR_AGE_RANDOM_FACTOR = 10,
 	NEW_HEIR_AGE_MIN_FACTOR = 1,
 	NEW_HEIR_CLAIM_RANDOM_FACTOR = 30,
@@ -476,7 +476,7 @@ NCountry = {
 	INSTITUTION_BASE_IMP_DEVELOPMENT = 30,
 
 	EMBRACE_INSTITUTION_COST = 2.5,				-- 2.5 per development (autonomy modified)
-	MAXIMUM_CONDOTTIERI = 1,					-- Base number of units you can rent out
+	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
 	CORRUPTION_COST = 0.05,						-- cost for monthly combat per development
 	STATE_MAINTENANCE_DEV_FACTOR = 0.007,		-- per dev
 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001,	-- distance
@@ -533,7 +533,7 @@ NCountry = {
 	PRESTIGE_GAIN_FOR_GOV_RANK_2 = 10,			-- Prestige gained on upgrading to government rank 2
 	PRESTIGE_GAIN_FOR_GOV_RANK_3 = 25,			-- Prestige gained on upgrading to government rank 3
 	MIN_PRESTIGE_FOR_GOV_RANK_2 = 50,			-- Required prestige to to upgrade to government rank 2
-	MIN_PRESTIGE_FOR_GOV_RANK_3 = 75,			-- Required prestige to to upgrade to government rank 3
+	MIN_PRESTIGE_FOR_GOV_RANK_3 = 50,			-- Required prestige to to upgrade to government rank 3
 	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 300,		-- Need at least this much development to upgrade to government rank 2
 	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 1000,		-- Need at least this much development to upgrade to government rank 3
 
@@ -552,7 +552,7 @@ NCountry = {
 
 	ALLOW_FEMALE_GENERALS = 0,
 	FEMALE_ADVISOR_CHANCE = 2,						-- If Women in History is enabled, chance of an advisor (or general if permitted) spawning as female
-	MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.5,
+	MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.4,
 
 	RANDOM_LUCKY_BASE_WEIGHT = 100,					-- Base weight given to each nation when rolling for random lucky
 	RANDOM_LUCKY_DEVELOPMENT_WEIGHT = 0.4,					-- Extra weight given for each base development when rolling for random luck
@@ -563,7 +563,7 @@ NCountry = {
 	DEVELOPMENT_ON_CONTINENT_FOR_NEW_CAPITAL = 0.0,	-- How many percent of your development needs to be on the other continent to move your capital there
 
 
-	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
+	EXPLORE_COAST_EVENT_CHANCE = 5,			-- Chance (in %) of getting an event when exploring coasts
 	MIN_TECH_FOR_CIRCUMNAVIGATE = 9,			-- Must have this level of dip tech to circumnavigate the globe
 	CIRCUMNAVIGATION_PROVINCE_1 = 1468,			-- Provinces for circumnavigation (coast of gambia)
 	CIRCUMNAVIGATION_PROVINCE_2 = 1539,			-- Provinces for circumnavigation (magellan strait)
@@ -578,7 +578,7 @@ NCountry = {
 	SUPPORT_OWN_HEIR_SUPPORT_BONUS = 5,
 	ELECTIVE_HEIR_CLAIM_STRENGTH = 80,
 	MAX_ACTIVE_POLICIES = 5,						-- how many active policies at once.
-	MINIMUM_POLICY_TIME = 10,						-- how many years minimum for a policy
+	MINIMUM_POLICY_TIME = 5,						-- how many years minimum for a policy
 	POLICY_COST = 1,								-- Monthly cost per policy
 	BASE_POSSIBLE_POLICIES = 3,						-- How many policies in a category a nation can have as a base
 	BASE_FREE_POLICIES = 1,							-- How many policies in a category a nation get for free
@@ -592,11 +592,11 @@ NCountry = {
 	VICTORY_CARD_BONUS_SCORE = 1000,		-- score given per level
 
 	COUNTRIES_GETTING_SCORE = 10,
-	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
+	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 3,			-- extra expense for being above forcelimit
 	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
 	REPUBLICAN_TRADITION_YEARLY_INCREASE = 1,		-- how much it increases each year.
-	PIETY_PERCENTAGE_AT_NEW_RULER = 0.25,			-- percentage of piety kept at new ruler.
-	PIETY_INCREASE_AT_GOOD_WAR = 0.25,
+	PIETY_PERCENTAGE_AT_NEW_RULER = 1,			-- percentage of piety kept at new ruler.
+	PIETY_INCREASE_AT_GOOD_WAR = 0.33,
 	PIETY_DECREASE_AT_BAD_WAR = -0.33,
 	ADVISOR_COST_INCREASE_PER_YEAR = 0.005,			-- yearly increase in price in percent,
 	SCRIPTED_ADVISOR_DISCOUNT = 0.5,				-- Multiplier on cost for advisors scripted with discount=yes
@@ -626,8 +626,8 @@ NCountry = {
 	DISMANTLE_HRE_PRESTIGE = 100,					-- Prestige gain on dismantling HRE
 	CROWN_LANDS_ALERT_THRESHOLD = 30,
 	FREE_IDEA_GROUP_COST  = 3,						-- modifier on cheapness of "free" idea group
-	MAX_TOLERANCE_HERETIC = 3, 						-- maximum tolerance towards heretics
-	MAX_TOLERANCE_HEATHEN = 3, 						-- maximum tolerance towards heathens
+	MAX_TOLERANCE_HERETIC = 5, 						-- maximum tolerance towards heretics
+	MAX_TOLERANCE_HEATHEN = 5, 						-- maximum tolerance towards heathens
 	CONVERSION_COOLDOWN = 120,						-- months before you can convert again.
 	CONVERSION_COOLDOWN_SECONDARY = 120,			-- months before you can convert secondary religion again.
 
@@ -647,18 +647,18 @@ NCountry = {
 	PS_BUY_EXPLORER = 50,
 	PS_ASSAULT = 0,
 	PS_ARTILLERY_BARRAGE = 25,
-	PS_NAVAL_BARRAGE = 25,
+	PS_NAVAL_BARRAGE = 15,
 	PS_FORCE_MARCH = 2,
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 50,
 	PS_DEMAND_NON_WARGOAL_PEACE = 3,
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
-	PS_MAKE_PROVINCE_CORE = 10,
+	PS_MAKE_PROVINCE_CORE = 8,
 	PS_REDUCE_INFLATION = 75,
-	PS_PROMOTE_MERCANTILISM = 100,
+	PS_PROMOTE_MERCANTILISM = 50,
 	PS_MOVE_CAPITAL = 200,
 	PS_MOVE_CAPITAL_EXTRA = 20,						-- Per 100 country development.
-	PS_MOVE_CAPITAL_DISTANCE = 10,					-- How many pixels distance per 1 Adm.
-	PS_MOVE_CAPITAL_DISTANCE_CAP = 300,				-- How much this penalty is allowed to cost in Adm.
+	PS_MOVE_CAPITAL_DISTANCE = 0,					-- How many pixels distance per 1 Adm.
+	PS_MOVE_CAPITAL_DISTANCE_CAP = 0,				-- How much this penalty is allowed to cost in Adm.
 	PS_MOVE_TRADE_PORT = 50,
 	PS_REPLACE_RIVAL = 0,
 	PS_SEIZE_COLONY = 5,
@@ -668,7 +668,7 @@ NCountry = {
 	PS_CHANGE_GOVERNMENT = 100,
 	PS_CHANGE_CULTURE = 10,
 	PS_CHANGE_CULTURE_OVERSEAS_RELIGION_MOD = -0.8,	-- Modifier how much cheaper it is to change culture in overseas province if same religion
-	PS_HARSH_TREATMENT_COST = 200,					-- Max cost for harsh treatment (scales to revolt size)
+	PS_HARSH_TREATMENT_COST = 100,					-- Max cost for harsh treatment (scales to revolt size)
 	PS_HARSH_TREATMENT_REDUCE = 30,
 	PS_GARRISON_SORTIES = 0,
 	PS_REDUCE_WAREXHAUSTION = 75,
@@ -712,7 +712,7 @@ NCountry = {
 	UNREST_REVOLT_FACTOR = 0.5, -- How much does each point of unrest contribute to chance of revolt uprising increasing (base)
 	UPRISING_INCREASE = 10, -- Number of percent that the progress increases
 	PROVOKE_REVOLT_SIZE_FACTOR = 0.5, -- Extra strength of revolt when using provoke revolt
-	PROVOKE_REVOLT_MIN_PROGRESS = 50.0,	-- Minimum revolt progress to use provoke
+	PROVOKE_REVOLT_MIN_PROGRESS = 30.0,	-- Minimum revolt progress to use provoke
 	UNREST_DECAY = 1.0,
 
 	PROMOTE_MERCANTILISM_INCREASE = 1,
@@ -770,13 +770,13 @@ NCountry = {
 	MISSION_CANCEL_CHOOSE_NEXT_DELAY = 1,			-- How many years until you can choose a new mission after a cancel
 	MONTHS_TO_CORE_MAXIMUM = 240,					-- Maximum amount of months it will take to core a province after all modifiers.
 	MONTHS_TO_CORE_MINIMUM = 6,						-- Minimum amount of months it will take to core a province after all modifiers.
-	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
+	MONTHS_TO_CORE = 24,							-- How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 7.5,					-- How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
 	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.0,				-- Percentage of force limit
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
-	STARTING_FLEET_SIZE = 0.9, 						-- Starting fleet (as percentage of forcelimits)
+	STARTING_FLEET_SIZE = 0.5, 						-- Starting fleet (as percentage of forcelimits)
 	GALLEY_INLAND_SEA_COAST_RATIO = 0.75, 			-- % of ports that need to be inland seas for galleys to be considered important
 	REBEL_BREAK_STABILITY_SET = 0,					-- Stability will be set to this value when rebels break country.
 	REBEL_BREAK_EXHAUSTION_SET = 0, 				-- Exhaustion will be set to this value when rebels break country.
@@ -1073,7 +1073,7 @@ NMilitary = {
 	BANNER_AGE_MULTIPLIER = 0.50,
 	BANNER_STARTING_STRENGTH = 1.0,					-- Starting strength of a banner regiment, 1.0 being full strength
 	FORT_DEVASTATION_IMPACT = -10,					-- multiplied by fortlevel/max fortlevel in area per year.
-	REVANCHISM_DEVASTATION_IMPACT = -0.02,			-- 100 revanschism is -2 a year.
+	REVANCHISM_DEVASTATION_IMPACT = -0.1,			-- 100 revanschism is -2 a year.
 	SURRENDER_DEVASTATION_IMPACT = -3.4,
 	CONTROL_DEVASTATION_IMPACT = -1,				-- devastation recovery given by control
 
