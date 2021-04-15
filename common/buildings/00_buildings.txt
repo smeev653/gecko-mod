@@ -36,7 +36,7 @@ marketplace = {
 	}
 
 	ai_will_do = {
-		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 1750 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
 	}
 }
 
@@ -50,7 +50,7 @@ workshop = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 2
+		factor = 2500
 	}
 }
 
@@ -62,7 +62,7 @@ temple = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 2250
 	}
 }
 
