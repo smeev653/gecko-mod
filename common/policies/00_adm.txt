@@ -209,7 +209,7 @@ manueline_architecture = {
 }
 
 the_royal_commission_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 
 	potential = {
@@ -222,7 +222,7 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	yearly_corruption = -0.2
+	trade_efficiency = 0.1
 	advisor_cost = -0.1
 	
 	ai_will_do = {
@@ -347,7 +347,7 @@ enforce_religious_law = {
 		full_idea_group = spy_ideas
 	}
 
-	global_tax_modifier = 0.2
+	global_tax_modifier = 0.25
 	global_unrest = -2
 	ai_will_do = {
 		factor = 1
@@ -649,8 +649,8 @@ the_loyalty_act = {
 		full_idea_group = expansion_ideas
 	}
 	
-	global_autonomy = -0.05
-	province_warscore_cost = -0.1
+	trade_efficiency = 0.1
+	global_trade_power  = 0.2
  
 
 	ai_will_do = {
@@ -804,7 +804,7 @@ vassal_integration_act = {
 }
 
 overseas_dominions = {
-	monarch_power = ADM
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -817,7 +817,7 @@ overseas_dominions = {
 	}	
 	
 	trade_company_investment_cost = -0.25
-	global_foreign_trade_power = 0.2
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1

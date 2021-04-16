@@ -773,7 +773,7 @@ cultural_unity = {
 	}	
 	
 	culture_conversion_cost = -0.25
-	global_tax_modifier = 0.2
+	global_tax_modifier = 0.25
 	
 	ai_will_do = {
 		factor = 0.6
