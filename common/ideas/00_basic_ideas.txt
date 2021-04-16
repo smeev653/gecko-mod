@@ -60,16 +60,15 @@ plutocracy_ideas = {
 		burghers_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
 	}
-
-	tradition_of_payment = {
-		mercenary_cost = -0.2
-		mercenary_discipline = 0.05
+	bill_of_rights = {
+		infantry_cost = -0.125
 	}
 	abolished_serfdom = {
 		land_morale = 0.10
 	}
-	bill_of_rights = {
-		infantry_cost = -0.15
+	tradition_of_payment = {
+		mercenary_cost = -0.2
+		mercenary_discipline = 0.05
 	}
 	free_merchants = {
 		merchants = 1
