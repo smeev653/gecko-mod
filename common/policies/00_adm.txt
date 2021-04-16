@@ -176,8 +176,8 @@ the_espionage_act = {
 		full_idea_group = spy_ideas
 	}
 
-	stability_cost_modifier = -0.25
-	diplomats = 1
+	technology_cost = -0.1
+
 	
 	ai_will_do = {
 		factor = 0.6
@@ -222,8 +222,8 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	yearly_corruption = -0.1
-	global_spy_defence = 0.2
+	yearly_corruption = -0.2
+	advisor_cost = -0.1
 	
 	ai_will_do = {
 		factor = 0.6
@@ -347,9 +347,8 @@ enforce_religious_law = {
 		full_idea_group = spy_ideas
 	}
 
-	global_missionary_strength = 0.01
-	global_spy_defence = 0.2
-
+	global_tax_modifier = 0.2
+	global_unrest = -2
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -429,7 +428,7 @@ vassal_taxation_policy = {
 		full_idea_group = administrative_ideas
 	}
 
-	province_warscore_cost = -0.15
+	province_warscore_cost = -0.25
 
 	ai_will_do = {
 		factor = 1
@@ -469,7 +468,7 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	siege_ability = 0.10
+	siege_ability = 0.15
 	artillery_bonus_vs_fort = 1
 	
 	ai_will_do = {
@@ -651,7 +650,7 @@ the_loyalty_act = {
 	}
 	
 	global_autonomy = -0.05
-	global_spy_defence = 0.2
+	province_warscore_cost = -0.1
  
 
 	ai_will_do = {
@@ -713,7 +712,7 @@ vassal_obligations_act = {
 		full_idea_group = economic_ideas
 	}	
 	
-	vassal_income = 0.25
+	global_trade_goods_size_modifier = 0.1
 	vassal_forcelimit_bonus = 1
 	
 	ai_will_do = {
@@ -754,8 +753,8 @@ foreign_advisors = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-	advisor_cost = -0.1
-	ae_impact = -0.1
+	technology_cost = -0.05
+	ae_impact = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -776,6 +775,7 @@ vassal_integration_act = {
 	}	
 	
 	diplomatic_annexation_cost = -0.2
+	global_own_trade_power = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -816,8 +816,8 @@ overseas_dominions = {
 		full_idea_group = expansion_ideas
 	}	
 	
-	vassal_income = 0.25
-	global_tariffs = 0.1
+	trade_company_investment_cost = -0.25
+	global_foreign_trade_power = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -1395,7 +1395,6 @@ the_banking_system = {
 		full_idea_group = trade_ideas
 	}
 
-	interest = -0.25
 	trade_efficiency = 0.1
 
 
@@ -1475,7 +1474,7 @@ anti_heresy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	loot_amount = 0.25
+	global_tax_modifier = 0.2
 	Infantry_cost = -0.15
 
 	ai_will_do = {
