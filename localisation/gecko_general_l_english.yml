@@ -30,3 +30,7 @@
  exp_free_subjects_desc:0 "Although giving a servant a damn good thrashing might be satisfying, it is not the best way to actually get them to work harder. Some natural philosopher has hit on the idea of making profit the prime motivation for people, if we replace monetary rents with payment in kind, our peasants will be incentivized to produce more."
  adm_adaptability:0 "Adaptability"
  adm_adaptability_desc:0 "There is what is ours and what is part of our ancestral domain that will never be surrendered. A bit of flexibility here will see much more land being considered never surrenderable and should the worst happen the whole world will know our crusade to recover it will be just."
+ ottoman_afsharid_infantry:0 "Ottoman Afsharid Infantry"
+ ottoman_afsharid_infantryDESCR:0 "Infantry troops armed with muskets during the reign of Nader Shah. He was considered by some to be one of Persia's most able military leaders."
+ ottoman_hussar:0 "Ottoman Hussar"
+ ottoman_hussarDESCR:0 "Light cavalry specializing in raiding and hit-and-run tactics."

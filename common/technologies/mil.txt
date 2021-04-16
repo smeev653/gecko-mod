@@ -301,6 +301,7 @@ technology = {
 	infantry_fire		=	0.3
 	
 	enable = african_hussar
+	enable = ottoman_hussar
 	enable = french_caracolle 
 	enable = huron_arquebusier	 
 	enable = creek_arquebusier	
@@ -344,6 +345,7 @@ technology = {
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
+	enable = ottoman_afsharid_infantry	
 }
 
 technology = {
