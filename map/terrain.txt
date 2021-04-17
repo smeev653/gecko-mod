@@ -516,6 +516,7 @@ categories =  {
 			4706 # 1.30 Greece and Bulgaria
 			88 #artois smeev
 			408 2311 4288 4290 #iraq marshes #smeev
+			87 #calais #smeev
 		}
 	}
 	
