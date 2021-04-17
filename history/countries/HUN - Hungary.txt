@@ -33,9 +33,9 @@ change_estate_land_share = {
 1444.11.10 = {
 	monarch = {
 		name = "(Regency Council)"
-		adm = 0
-		mil = 0
-		dip = 0
+		adm = 4
+		mil = 5
+		dip = 4
 		regent = yes
 	}
 }
