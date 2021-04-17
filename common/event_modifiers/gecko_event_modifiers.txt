@@ -70,3 +70,8 @@ pap_veneration_relics = {
 upkeep_of_holy_cities = {
 	state_maintenance_modifier  = 0.1
 }	
+
+purification_of_tax_laws = {
+	global_unrest = -1
+	state_maintenance_modifier  = 0.1
+}	
