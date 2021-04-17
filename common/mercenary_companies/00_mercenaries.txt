@@ -137,8 +137,7 @@ merc_knights_templar = {
 
 # Pontifical Swiss Guard
 merc_swiss_guard = {
-    regiments_per_development = 0.005
-	home_province = 166
+    regiments_per_development = 0.065
 	sprites = { dlc029_pap_sprite_pack dlc040_pap_sprite_pack westerngfx_sprite_pack }
     trigger = { 
 		tag = PAP
@@ -149,7 +148,7 @@ merc_swiss_guard = {
 	}
     cost_modifier = 0.5
 	modifier = {
-		discipline = 0.025
+		discipline = 0.05
 	}
 }
 

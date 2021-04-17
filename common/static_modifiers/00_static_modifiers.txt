@@ -1157,8 +1157,7 @@ absolutism = {
 }
 
 low_army_professionalism = {
-	mercenary_cost = -0.15
-	mercenary_manpower = 0.15
+	mercenary_manpower = 0.1
 }
 
 high_army_professionalism = {
@@ -1299,7 +1298,7 @@ dishonoured_alliance =  {
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
-	yearly_army_professionalism = 0.02
+	yearly_army_professionalism = 0.015
 }
 
 ##################################################################################################
