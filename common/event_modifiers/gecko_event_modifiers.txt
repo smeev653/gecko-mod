@@ -66,3 +66,7 @@ pap_simony = {
 pap_veneration_relics = {
 	global_tax_income = 12
 }
+
+upkeep_of_holy_cities = {
+	state_maintenance_modifier  = 0.1
+}	
