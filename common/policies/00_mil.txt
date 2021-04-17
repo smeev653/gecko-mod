@@ -282,7 +282,7 @@ modern_firearm_techniques = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.10
+	infantry_power = 0.15
 	yearly_army_professionalism = 0.002
 
 	ai_will_do = {
@@ -315,7 +315,7 @@ the_garrison_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	fire_damage = 0.15
+	fire_damage = 0.2
 
 	ai_will_do = {
 		factor = 1
@@ -426,7 +426,7 @@ local_army_organisation = {
 	}
 
 	global_regiment_cost = -0.1
-	reinforce_cost_modifier = -0.2
+	defensiveness = 0.2
 
 	ai_will_do = {
 		factor = 1
