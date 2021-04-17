@@ -2244,7 +2244,7 @@ take_estate_land_share_medium = {
 take_estate_land_share_large = {
 	 change_estate_land_share = {
 		estate = $estate$
-		share = -3
+		share = -5
 	}
 }
 
