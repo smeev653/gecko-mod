@@ -1086,7 +1086,7 @@ black_chamber_act = {
 	}
 	
 	spy_offence = 0.20
-	move speed = 0.1
+	movement_speed = 0.1
 
 	ai_will_do = {
 		factor = 0.6

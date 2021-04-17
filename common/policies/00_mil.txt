@@ -13,7 +13,7 @@ privy_council_establishment_act = {
 	}
 
 	defensiveness = 0.20
-	land morale = 0.05
+	land_morale = 0.05
 	
 	ai_will_do = {
 		factor = 0.6
@@ -38,7 +38,7 @@ the_mercenary_registration_act = {
 		full_idea_group = quantity_ideas
 	}
 
-	regiment_cost = -0.10
+	global_regiment_cost = -0.10
 	
 	ai_will_do = {
 		factor = 1

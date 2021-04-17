@@ -772,7 +772,6 @@ trade_company_krakow = {
 		4723
 		43 2997 1841 #west prussia #smeev
 		2958 42 767 41 40 #east prussia #smeev
-		268 1756 2405 4529 4530 #moldavia #smeev
 	}
 	
 	# Specific

@@ -126,7 +126,7 @@ over_merc_cap_mid = {
 		num_of_hired_mercenary_companies = 7
 		is_at_war = yes
 		army_size_percentage = 1.5
-		NOT = { full_idea_group = plutocratic_ideas }
+		NOT = { full_idea_group = plutocracy_ideas }
 	}
 	land_morale = -0.5
 	interest = 1
@@ -141,7 +141,7 @@ over_merc_cap_mid_pluto = {
 		num_of_hired_mercenary_companies = 9
 		is_at_war = yes
 		army_size_percentage = 1.5
-        full_idea_group = plutocratic_ideas 
+        full_idea_group = plutocracy_ideas 
 	}
 	land_morale = -0.5
 	interest = 1
