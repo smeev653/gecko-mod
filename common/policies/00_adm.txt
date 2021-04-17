@@ -134,7 +134,7 @@ agricultural_cultivations = {
 		full_idea_group = quantity_ideas
 	}		
 	
-	land_forcelimit_modifier = 0.2
+	land_forcelimit_modifier = 0.33
 
 	ai_will_do = {
 		factor = 1
