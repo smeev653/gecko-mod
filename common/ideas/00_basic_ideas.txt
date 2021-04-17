@@ -103,7 +103,7 @@ innovativeness_ideas = {
 		innovativeness_gain = 1
 	}
 	patron_of_art  = {
-		prestige_decay = -0.02
+		prestige_decay = -0.01
 	}
 	dynamic_court = {
 		idea_cost = -0.1
@@ -780,14 +780,15 @@ expansion_ideas = {
 	}
 	additional_merchants = {
 		merchants = 1
-		placed_merchant_power = 5
+		placed_merchant_power = 10
 	}
 	exp_bill_of_rights = {
 		global_unrest = -2
+		num_accepted_cultures = 3
 	}
 	factories = {
-		rival_border_fort_maintenance = -0.75
-		center_of_trade_upgrade_cost = -0.2
+		years_of_nationalism = -10
+		center_of_trade_upgrade_cost = -0.25
 	}
 	additional_diplomats = {
 		cb_on_overseas = yes
@@ -855,19 +856,21 @@ administrative_ideas = {
 	}
 	
 	adm_adaptability = {
-		reform_progress_growth = 0.2	
+		reform_progress_growth = 0.5	
 	}
 	organised_mercenary_payment = {
 		state_maintenance_modifier = -0.5
 	}
 	civil_servants = {
 		monthly_splendor = 3
+		advisor_pool = 1
+		
 	}
 	benefits_for_mercenaries = {
 		merc_maintenance_modifier = -0.5
 	}
 	bookkeeping = {
-		interest = -0.5
+		interest = -0.25
 	}
 	organised_mercenary_recruitment = {
 		expand_administration_cost = -0.75
