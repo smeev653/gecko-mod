@@ -1224,6 +1224,7 @@ trained_marines_act = {
 	}
 	
 	infantry_power = 0.1
+	movement_speed = 0.1
 
 	ai_will_do = {
 		factor = 1

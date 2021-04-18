@@ -424,8 +424,8 @@ local_army_organisation = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_regiment_cost = -0.1
-	defensiveness = 0.2
+	discipline = 0.03
+	reinforce_speed = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -739,6 +739,7 @@ local_militias = {
 	}	
 	
 	discipline = 0.03
+	defensiveness = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -843,7 +844,7 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	cavalry_power = 0.20
+	cavalry_power = 0.15
 	
 	ai_will_do = {
 		factor = 1
