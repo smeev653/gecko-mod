@@ -482,7 +482,7 @@ active_missionary = {
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
 	local_unrest = -5
-	local_manpower_modifier = 0.5
+	land_maintenance_modifier = -0.2
 }
 
 
@@ -698,7 +698,7 @@ war_exhaustion = {
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
 	global_trade_goods_size_modifier = -0.02
-	defensiveness = -0.025
+	#defensiveness = -0.025
 }
 
 doom = {
@@ -746,7 +746,7 @@ army_tradition = {
 	nobles_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
-	yearly_army_professionalism = 0.01
+	yearly_army_professionalism = 0.005
 }
 
 navy_tradition = {
@@ -930,13 +930,13 @@ root_out_corruption = {
 
 recovery_motivation = {
 	global_tax_modifier = 0.5
-	defensiveness = 0.5
-	manpower_recovery_speed = 0.5
+	defensiveness = 0.75
+	manpower_recovery_speed = 0.75
 	army_tradition = 1
 	navy_tradition = 1
-	global_unrest = -10
+	global_unrest = -20
 	horde_unity = 10
-	war_exhaustion = -0.5
+	war_exhaustion = -1
 }
 
 militarized_society = {
@@ -1161,9 +1161,9 @@ low_army_professionalism = {
 }
 
 high_army_professionalism = {
-	fire_damage = 0.2
-	shock_damage = 0.2
-	siege_ability = 0.2
+	fire_damage = 0.15
+	shock_damage = 0.15
+	#siege_ability = 0.2
 	drill_decay_modifier = -0.5
 	reinforce_speed = 0.33
 	recover_army_morale_speed = 0.1
@@ -1298,7 +1298,7 @@ dishonoured_alliance =  {
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
-	yearly_army_professionalism = 0.015
+	yearly_army_professionalism = 0.01125
 }
 
 ##################################################################################################

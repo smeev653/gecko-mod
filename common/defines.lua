@@ -149,13 +149,13 @@ NDiplomacy = {
 	HRE_VOTE_ROYAL_MARRIAGE = 10,
 	HRE_VOTE_CORE_CLAIM = -50,
 
-	COUNTERESPIONAGE_DISCOVER_CHANCE = 0.33,
+	COUNTERESPIONAGE_DISCOVER_CHANCE = 0.50,
 	COUNTERESPIONAGE_NETWORK_IMPACT = -0.50,
 	BUILD_SPY_DISCOVERED_PENALTY = -10.0,
 	BUILD_SPY_NETWORK_SPEED = 1.5,
 	SPY_NETWORK_DECAY = 1,
-	SPY_NETWORK_SIEGE_EFFECT = 0.33,
-	SPY_NETWORK_AE_EFFECT = -0.2,
+	SPY_NETWORK_SIEGE_EFFECT = 0.2,
+	SPY_NETWORK_AE_EFFECT = -0.33,
 	SPY_NETWORK_TECH_EFFECT = -0.05,
 	SPY_NETWORK_TECH_EFFECT_MAX = -0.3,
 	DETECTED_SPY_NETWORK_DAMAGE_MIN = 10,
@@ -1056,10 +1056,10 @@ NMilitary = {
 	
 
 	ARMY_DRILL_YEARLY_DECAY = -1.0,					-- Loss from not Drilling
-	ARMY_DRILL_YEARLY_GAIN = 20,					-- Gain from Drilling
+	ARMY_DRILL_YEARLY_GAIN = 33.3,					-- Gain from Drilling
 	ARMY_DRILL_MAX = 100.0,
 	ARMY_DRILL_MAX_MORALE = 0.5,
-	ARMY_DRILL_SKILL_MONTHS = 60,					-- The average number of months until you get a skill increase if drilling 100% of forcelimit. Set to 0 to disable.
+	ARMY_DRILL_SKILL_MONTHS = 90,					-- The average number of months until you get a skill increase if drilling 100% of forcelimit. Set to 0 to disable.
 
 	COSSACKS_SHOCK_DAMAGE_BONUS = 0.1,
 	STRELTSY_FIRE_DAMAGE_BONUS = 0.1,
@@ -1176,7 +1176,7 @@ NMilitary = {
 	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.1,			--
 	SUPPLYLIMIT_BASE_MULTIPLIER = 6.0, 				--
 	WAR_LENGTH_DAMAGE_MODIFIER = 0.01,				-- How much (by percentage) the damage dealt will be increased each day of the combat
-	MORALE_RECOVERY_SPEED = 0.10,					-- How much (by percentage) of the maximum morale that the current morale will be recovered with at a time
+	MORALE_RECOVERY_SPEED = 0.15,					-- How much (by percentage) of the maximum morale that the current morale will be recovered with at a time
 	MORALE_RECOVERY_SPEED_OWN_TERRITORY = 0.05,		-- How much the recovery speed for morale will be modified if unit is in controlled territory
 	HOSTILE_TERRITORY_SPEED_MODIFIER = 0,			-- speed modifier into hostile territory
 	SHATTERED_RETREAT_SPEED_MODIFIER = 0.5,			-- How much (by percentage) the movement speed will be modified when doing a shattered retreat
