@@ -123,9 +123,10 @@ empire_of_hungary_reform = {
 	icon = "holy_state_reform"
 	potential = {
 		tag = HUN
+		religion = catholic
 	}
 	modifiers = {
-		global_manpower_modifier = 0.25
+		manpower_recovery_speed = 0.15
 		prestige = 1
 		devotion = 1
 		land_morale = 0.15
