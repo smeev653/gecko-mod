@@ -186,7 +186,7 @@ spy_ideas = {
 	category = DIP
 
 	bonus = {
-		artillery_bonus_vs_fort = 1
+		siege_ability = 0.15	
 	}
 
 	efficient_spies = {
@@ -213,7 +213,7 @@ spy_ideas = {
 		 yearly_corruption = -0.5
 	}
 	privateers = {
-		siege_ability = 0.10
+		artillery_bonus_vs_fort = 1
 	}
 	audit_checks = {
 		movement_speed = 0.1
@@ -774,11 +774,12 @@ expansion_ideas = {
 	important = yes
 
 	bonus = {
- 		administrative_efficiency = 0.05
+		governing_capacity = 400
+		governing_capacity_modifier = 0.15
 	}
 
 	adaptability = {
-		core_creation = -0.25
+		core_creation = -0.33
 	}
 	additional_merchants = {
 		merchants = 2
@@ -794,13 +795,13 @@ expansion_ideas = {
 	}
 	competetive_merchants  = {
 		global_trade_power = 0.25
-	}
-	exp_free_subjects = {
 		global_trade_goods_size_modifier = 0.1
 	}
+	exp_free_subjects = {
+		manpower_recovery_speed = 0.2
+	}
 	additional_diplomats = {
-		cb_on_overseas = yes
-		governing_capacity_modifier = 0.15
+		land_attrition = -0.2
 	}
 	ai_will_do = {
 		factor = 0.48
