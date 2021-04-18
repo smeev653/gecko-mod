@@ -157,7 +157,7 @@ country_decisions = {
 			change_dip = 1
 			change_mil = 1
 			add_years_of_income = -0.5
-			set_country_flag = educate_ruler
+			set_country_flag = educate_ruler_flag
 		}
 	}
 	PR_critical_events = {
