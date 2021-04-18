@@ -297,7 +297,8 @@ patriarch_authority_global = {
 pasha_state = {
 	local_state_maintenance_modifier = -0.5
 	local_unrest = -2
-
+	local_tax_modifier = -0.1
+	
 }
 
 colony_level = {
@@ -874,7 +875,7 @@ legitimacy = {
 #Multiplied by current Horde Unity - 50
 horde_unity = {
 	global_unrest = -4
-	discipline = 0.10
+	discipline = 0.05
 	nomadic_tribes_loyalty_modifier = 0.05
 }
 

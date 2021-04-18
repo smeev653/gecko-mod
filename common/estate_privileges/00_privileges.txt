@@ -1912,7 +1912,6 @@ smeev_mountain_dev_cost = {
 	influence = 0.05
 	is_valid = {
 		OR = {
-			tag = PER
 			tag = AFG
 			tag = MUG
 			tag = MOR
