@@ -49,44 +49,44 @@ country_event = {
 }
 
 # The Statute of Piotrkow
-country_event = {
-	id = flavor_pol.3468
-	title = "flavor_pol.EVTNAME3468"
-	desc = "flavor_pol.EVTDESC3468"
-	picture = COURT_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		OR = {
-			AND = {
-				tag = POL
-				NOT = { exists = PLC }
-			}
-			tag = PLC
-		}
-		is_year = 1490
-		NOT = { is_year = 1500 }
-	}
-	
-	mean_time_to_happen = {
-		months = 50
-	}
-	
-	option = {
-		name = "flavor_pol.EVTOPTA3468" # Enact
-		add_stability_or_adm_power = yes
-		add_mercantilism = 3
-		add_country_modifier = {
-			name = pol_statute_piotrkow
-			duration = 10950
-		}
-	}
-	option = {
-		name = "flavor_pol.EVTOPTB3468" # Refuse to enact
-		add_stability = -3
-	}
-}
+#country_event = {
+#	id = flavor_pol.3468
+#	title = "flavor_pol.EVTNAME3468"
+#	desc = "flavor_pol.EVTDESC3468"
+#	picture = COURT_eventPicture
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		OR = {
+#			AND = {
+#				tag = POL
+#				NOT = { exists = PLC }
+#			}
+#			tag = PLC
+#		}
+#		is_year = 1490
+#		NOT = { is_year = 1500 }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 50
+#	}
+#	
+#	option = {
+#		name = "flavor_pol.EVTOPTA3468" # Enact
+#		add_stability_or_adm_power = yes
+#		add_mercantilism = 3
+#		add_country_modifier = {
+#			name = pol_statute_piotrkow
+#			duration = 10950
+#		}
+#	}
+#	option = {
+#		name = "flavor_pol.EVTOPTB3468" # Refuse to enact
+#		add_stability = -3
+#	}
+#}
 
 # The Polish Inheritance of Masovia
 country_event = {
