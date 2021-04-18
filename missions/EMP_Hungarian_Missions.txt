@@ -613,35 +613,11 @@ emp_hun_bohemia_austria_branch = {
 		}
 		effect = {
 			add_prestige = 25
-
-			if = {
-				limit = {
-					is_elector = no
-					BOH = { is_elector = yes }
-					OR = {
-						hre_religion_locked = no
-						hre_religion = root
-					}
-				}
-				if = {
-					limit = {
-						NOT = { senior_union_with = BOH }
-					}
-					custom_tooltip = emp_hun_bohemian_crown_effect_tooltip
-				}
-				tooltip = {
+			custom_tooltip = emp_hun_bohemian_crown_effect_tooltip
+			tooltip = {
 					country_event = { id = new_flavour_hun.1 }
-				}
-				hidden_effect = {
-					if = {
-						limit = {
-							senior_union_with = BOH
-						}
-						country_event = { id = new_flavour_hun.1 }
-					}
-				}
 			}
-		}
+		}		
 	}
 }
 

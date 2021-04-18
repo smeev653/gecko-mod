@@ -18,7 +18,7 @@ burgundy_subjects_placated = {
 }
 
 succesful_bid_for_imperial_crown = {
-	ae_impact = -0.2
+	ae_impact = -0.1
 	province_warscore_cost = -0.1
 }
 
