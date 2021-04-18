@@ -744,6 +744,7 @@ emp_hun_bohemia_austria_branch_2 = {
 			}
 		}
 		effect = {
+			country_event = { id = gecko.5 }
 			if = {
 				limit = {
 					NOT = { government_rank = 3 }

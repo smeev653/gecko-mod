@@ -380,3 +380,25 @@ country_event = { #Mughal Ruler Failsafe
 		}
 	}
 }
+
+# Empire of Hungary
+country_event = {
+	id = gecko.5
+	title = gecko.5.t
+	desc = gecko.5.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = gecko.5.a
+		add_government_reform = empire_of_hungary_reform
+		set_government_rank = 3
+	}
+
+	option = {
+		name = gecko.5.b
+		add_prestige = 10
+	}
+}
