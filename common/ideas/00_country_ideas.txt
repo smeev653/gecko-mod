@@ -14946,6 +14946,7 @@ SWA_ideas = {
 		development_cost = -0.1
 	}
 	bonus = {
+		prov_trade_power_modifier = 0.25
 		land_morale = 0.15
 	}
 	trigger = {
@@ -14956,26 +14957,26 @@ SWA_ideas = {
 	swa_decentralisation = {
 		global_tax_modifier = 0.15
 	}
-	swa_fugger_banks = {
-		inflation_reduction = 0.05
-		interest = -0.25
+	swa_stinginess = {
+		build_cost = -0.15
+		same_culture_advisor_cost = -0.25
 	}
-	swa_free_cities = {
-		global_prov_trade_power_modifier = 0.25
+	swa_barbarossas_legacy = {
+		discipline = 0.05
 	}
 	swa_swabian_league = {
 		diplomatic_upkeep = 2
 		diplomatic_annexation_cost = -0.15
 	}
-	swa_stinginess = {
-		build_cost = -0.15
-		same_culture_advisor_cost = -0.25
+	swa_fugger_banks = {
+		inflation_reduction = 0.05
+		interest = -0.25
 	}
 	swa_hohenstaufen_emperors = {
 		prestige = 1
 	}
-	swa_barbarossas_legacy = {
-		discipline = 0.05
+	swa_free_cities = {
+		land_morale = 0.15
 	}
 }
 
