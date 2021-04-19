@@ -12,8 +12,8 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	defensiveness = 0.20
-	land_morale = 0.05
+	siege_ability = 0.10
+	army_tradition = 1
 	
 	ai_will_do = {
 		factor = 0.6
@@ -234,7 +234,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.15
+	siege_ability = 0.10
 	leader_siege = 1
 
 	ai_will_do = {
@@ -259,7 +259,7 @@ superior_fortification_act = {
 		full_idea_group = defensive_ideas
 	}
 	
-	defensiveness = 0.2
+	defensiveness = 0.10
 	fort_maintenance_modifier = -0.2
 
 
@@ -623,8 +623,8 @@ autonomous_estates = {
 		full_idea_group = influence_ideas
 		full_idea_group = aristocracy_ideas
 	}	
-	
-	fire_damage_received = -0.15
+	land_morale = 0.05
+	defensiveness = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -726,7 +726,7 @@ the_preparation_act = {
 }
 
 local_militias = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -738,8 +738,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	discipline = 0.03
-	defensiveness = 0.2
+	army_tradition_decay = -0.01
 	
 	ai_will_do = {
 		factor = 1
@@ -970,7 +969,7 @@ unified_army_command = {
 }
 
 trade_kontor_network = {
-	monarch_power = MIL
+	monarch_power = DIP
 	potential = {
 		has_idea_group = plutocracy_ideas
 		has_idea_group = trade_ideas
@@ -981,7 +980,8 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	global_regiment_cost = -0.1
+	merchants = 1
+	placed_merchant_power = 15
 
 	ai_will_do = {
 		factor = 0.6
@@ -1021,7 +1021,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	army_tradition_decay = -0.005
+	army_tradition_decay = -0.01
 	
 	ai_will_do = {
 		factor = 0.75

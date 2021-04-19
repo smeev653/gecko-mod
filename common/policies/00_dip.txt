@@ -73,7 +73,7 @@ the_wooden_wall = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_ship_cost = -0.15
+	fire_damage_received = -0.15
 	
 	ai_will_do = {
 		factor = 0.6
@@ -465,7 +465,7 @@ cloth_quality_edict = {
 
 
 production_quota_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	potential = {
 		has_idea_group = trade_ideas
 		has_idea_group = quantity_ideas
@@ -475,7 +475,7 @@ production_quota_act = {
 		full_idea_group = trade_ideas
 		full_idea_group = quantity_ideas
 	}
-	global_regiment_cost = -0.1
+	global_trade_goods_size_modifier = 0.1
  
 
 	ai_will_do = {
@@ -870,7 +870,7 @@ fortified_trading_posts = {
 }
 
 the_integrated_administration_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -882,7 +882,8 @@ the_integrated_administration_act = {
 		full_idea_group = quality_ideas
 	}	
 	
-	army_tradition_decay = -0.005
+	discipline = 0.03
+	defensiveness = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -1073,7 +1074,7 @@ the_stamp_act = {
 }
 
 black_chamber_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = spy_ideas
@@ -1085,8 +1086,8 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	spy_offence = 0.20
-	movement_speed = 0.1
+	artillery_cost = -0.20
+	artillery_bonus_vs_fort = 1
 
 	ai_will_do = {
 		factor = 0.6
