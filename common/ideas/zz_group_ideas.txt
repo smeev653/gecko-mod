@@ -753,14 +753,14 @@ swabian_ideas = {
 	}
 	free = yes
 
+	swabian_bavarian_resistance = {
+		land_morale = 0.1
+	}
 	swabian_mercenaries = {
 		mercenary_manpower = 0.4
 	}
 	swabian_river_iller = {
 		defensiveness = 0.2
-	}
-	swabian_bavarian_resistance = {
-		land_morale = 0.1
 	}
 	swabian_decapole = {
 		diplomatic_upkeep = 1
@@ -770,6 +770,7 @@ swabian_ideas = {
 	}
 	swabian_thorn_of_the_empire = {
 		legitimacy = 1
+		republican_tradition = 0.5
 	}
 	swabian_habsburg_league = {
 		global_unrest = -1
