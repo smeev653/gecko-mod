@@ -186,7 +186,7 @@ spy_ideas = {
 	category = DIP
 
 	bonus = {
-		siege_ability = 0.15	
+		merchants = 1
 	}
 
 	efficient_spies = {
@@ -206,7 +206,7 @@ spy_ideas = {
 	}
 	agent_training = {
 		power_projection_from_insults = 1
-		prestige = 0.5
+		prestige = 0.75
 	}
 	claim_fabrication = {
 		 embargo_efficiency = 0.33
@@ -214,6 +214,7 @@ spy_ideas = {
 	}
 	privateers = {
 		artillery_bonus_vs_fort = 1
+		siege_ability = 0.10
 	}
 	audit_checks = {
 		movement_speed = 0.1
@@ -407,7 +408,7 @@ economic_ideas = {
 		inflation_reduction = 0.2
 	}
 	debt_and_loans = {
-		build_time = -0.2
+		build_time = -0.25
 	}
 	centralization = {
 		global_autonomy = -0.05
@@ -791,7 +792,7 @@ expansion_ideas = {
 	}
 	factories = {
 		years_of_nationalism = -10
-		center_of_trade_upgrade_cost = -0.25
+		trade_company_investment_cost = -0.25
 	}
 	competetive_merchants  = {
 		global_trade_power = 0.25
@@ -949,6 +950,7 @@ influence_ideas = {
 	}
 	additional_loyalist_recruitment = {
 		reduced_liberty_desire = 25
+		province_warscore_cost = -0.2
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 5
@@ -963,7 +965,8 @@ influence_ideas = {
 	}
 	
 	inf_flexible_negotiation = {
-		province_warscore_cost = -0.2
+		center_of_trade_upgrade_cost = -0.25
+		mercantilism_cost = -0.25
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 1
