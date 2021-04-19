@@ -118,7 +118,18 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = formed_arabia_flag
-
+			change_unit_type = ottoman
+			define_ruler = {
+				name = "Husayn"
+				dynasty = "ibn Ali"
+				fixed = yes
+				religion = sunni
+				claim = 100
+				adm = 5
+				dip = 5
+				mil = 6
+				}
+			kill_heir = yes	
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
