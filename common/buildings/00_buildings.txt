@@ -1064,11 +1064,11 @@ naval_battery = {
 cathedral = {
 	make_obsolete = temple
 
-	cost = 300
+	cost = 200
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 1.2
+		local_tax_modifier = 0.8
 	}
 
 	ai_will_do = {
