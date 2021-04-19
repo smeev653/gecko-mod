@@ -14946,7 +14946,7 @@ SWA_ideas = {
 		development_cost = -0.1
 	}
 	bonus = {
-		prov_trade_power_modifier = 0.25
+		global_prov_trade_power_modifier = 0.25
 		land_morale = 0.15
 	}
 	trigger = {
