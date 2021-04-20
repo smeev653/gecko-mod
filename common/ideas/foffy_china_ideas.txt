@@ -222,11 +222,11 @@ CYI_ideas = {
 WUU_ideas = { #Wu
 	start = {
 		infantry_power = 0.1
-		mercenary_discipline = 0.05
+		land_morale = 0.05
 	}
 	
 	bonus = {
-		artillery_power = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	
 	trigger = {
@@ -235,8 +235,7 @@ WUU_ideas = { #Wu
 	free = yes #will be added at load.
 	
 	WUU_1 = {
-		embracement_cost = -0.2
-		global_institution_spread = 0.33
+		discipline = 0.05
 	}
 	WUU_2 = {
 		trade_efficiency = 0.1
@@ -254,9 +253,10 @@ WUU_ideas = { #Wu
 	}
 	WUU_6 = {
 		global_sailors_modifier = 0.25
+		merchants = 1
 	}
 	WUU_7 = {
-		merchants = 1
+		artillery_power = 0.1
 	}
 }
 
