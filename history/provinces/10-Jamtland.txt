@@ -10,7 +10,7 @@ base_production = 1
 trade_goods = fur
 base_manpower = 1
 capital = "Frösön"
-add_local_autonomy = 25
+#add_local_autonomy = 25
 is_city = yes
 add_core = DAN
 
