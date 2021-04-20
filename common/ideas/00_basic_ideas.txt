@@ -68,7 +68,7 @@ plutocracy_ideas = {
 	}
 	tradition_of_payment = {
 		mercenary_cost = -0.2
-		mercenary_discipline = 0.05
+		mercenary_discipline = 0.03
 	}
 	free_merchants = {
 		merchants = 1
@@ -132,7 +132,13 @@ innovativeness_ideas = {
 			factor = 2
 			num_of_cities = 50
 		}
-	}
+		modifier = {
+			factor = 1000
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
+	}	
 }
 
 
@@ -313,20 +319,20 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		garrison_size = 0.25
+		shock_damage_received = -0.1
 	}
 
 	battlefield_commisions = {
 		army_tradition_from_battle = 1.0
 	}
 	military_drill = {
-		land_morale = 0.15
+		land_morale = 0.10
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
 	}
 	regimental_system = {
-		land_maintenance_modifier = -0.05
+		garrison_size = 0.25
 	}
 	defensive_mentality = {
 		defensiveness = 0.2
@@ -732,6 +738,12 @@ quality_ideas = {
 
 	ai_will_do = {
 		factor = 0.49
+		modifier = {
+			factor = 1000
+			overlord = {
+				has_idea_group = influence_ideas
+			}
+		}
 	}
 }
 
@@ -867,7 +879,7 @@ administrative_ideas = {
 	}
 	civil_servants = {
 		monthly_splendor = 3
-		advisor_pool = 1
+		advisor_pool = 2
 		
 	}
 	benefits_for_mercenaries = {
