@@ -1040,7 +1040,7 @@ swahili_ideas = {
 	}
   
 	trigger = {
-		tag = RZW
+		tag = ZAN
 	}
 	free = yes
   
