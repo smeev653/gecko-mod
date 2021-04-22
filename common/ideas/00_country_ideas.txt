@@ -14947,7 +14947,6 @@ SWA_ideas = {
 	}
 	bonus = {
 		global_prov_trade_power_modifier = 0.25
-		land_morale = 0.15
 	}
 	trigger = {
 		tag = SWA

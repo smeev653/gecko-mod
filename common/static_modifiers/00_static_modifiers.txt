@@ -483,7 +483,6 @@ active_missionary = {
 # Core province of the owner's culture group, while fighting a defensive war
 national_defense = {
 	local_unrest = -5
-	land_maintenance_modifier = -0.2
 }
 
 
